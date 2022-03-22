@@ -1,0 +1,36 @@
+{
+  "graphics": {
+    "tilesheets": [
+      {
+        "name": "glyph32",
+        "tiles": [ 30, 52 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/Untitled-1.png"
+      },
+	    {
+        "name": "glyph24",
+        "tiles": [ 30, 52 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/Untitled-1.png"
+      },
+      {
+        "name": "particles24",
+        "tiles": [ 16, 64 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/tileset_bold.png"
+      },
+      {
+        "name": "particles32",
+        "tiles": [ 16, 64 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/tileset_bold.png"
+      },
+      {
+        "name": "abilities",
+        "tiles": [ 20, 35 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/abilities23x23.png"
+      },
+      {
+        "name": "monsters",
+        "tiles": [ 10, 5 ],
+        "file": "data/mods/wrongtown_goombanistan/assets/gfx/monsters.png"
+      }
+    ]
+  }
+}
