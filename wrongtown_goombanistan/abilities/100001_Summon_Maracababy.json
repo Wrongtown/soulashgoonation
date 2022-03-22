@@ -1,0 +1,22 @@
+{
+	"animation": 236,
+	"cast_time": 1.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 3,
+		"stamina": 1
+	},
+	"description": "Summons a Maracababy that will try to protect you in combat and chase escaping enemies.",
+	"duration": 0.0,
+	"effects": {
+		"summon": 200008,
+		"summon_count": 1
+	},
+	"id": 100001,
+	"image": 100,
+	"level": 1,
+	"name": "Summon Maracababy",
+	"profession": 100002,
+	"range": 10,
+	"target": "tile"
+}

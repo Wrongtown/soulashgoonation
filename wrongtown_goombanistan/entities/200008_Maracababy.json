@@ -1,0 +1,287 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 50,
+		"electricity": 0,
+		"fire": 20,
+		"frost": 0,
+		"holy": 20,
+		"parry": 3,
+		"physical": 0,
+		"poison": 5
+	},
+	"artificial_intelligence": {
+		"allies": [],
+		"allow_production": [],
+		"behaviors": [
+			16,
+			4
+		],
+		"enemies": [
+			5
+		]
+	},
+	"components": [
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": 25,
+	"description": "Premiuere entertainment from Goombanistan!",
+	"dialogues": [
+		2,
+		43
+	],
+	"equipment": {
+		"left_hand": [
+			{
+				"chance": 1.0,
+				"id": 200009,
+				"name": "Maraca",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": 200009,
+				"name": "Maraca",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 4,
+		"level": 1
+	},
+	"fighter": {
+		"attackNames": [
+			"Shakes maracas"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1470
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1471
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1472
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1473
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1474
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1475
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1476
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1477
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1478
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1479
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1480
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1481
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1482
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1483
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1484
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1485
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1486
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 40,
+				"index": 1487
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 80,
+	"id": 200008,
+	"minimap_pixel": [
+		99,
+		0,
+		210
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Maracababy",
+	"sight": {
+		"infravision": true,
+		"range": 5,
+		"threesixty": true
+	},
+	"statistics": {
+		"dexterity": [
+			8,
+			100
+		],
+		"endurance": [
+			11,
+			15
+		],
+		"intelligence": [
+			2,
+			6
+		],
+		"strength": [
+			80,
+			100
+		],
+		"willpower": [
+			4,
+			100
+		]
+	},
+	"tags": [
+		4,
+		22
+	]
+}

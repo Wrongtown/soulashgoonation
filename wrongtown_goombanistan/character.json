@@ -1,0 +1,58 @@
+{
+    "races": [
+        {
+            "id": 100002,
+            "name": "Goombanistanian",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 80% less souls to level up\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
+            "statistics": {
+                "strength": 5,
+                "endurance": 5,
+                "dexterity": 5,
+                "intelligence": 5,
+                "willpower": 5
+            },
+            "passives": [
+                {"name": "hunger", "value": 1.8},
+                {"name": "lower_exp_needed", "value": -0.8}
+            ],
+            "items": [
+                { "id": 70, "amount": 1 }, 
+                { "id": 347, "amount": 1 }, 
+                { "id": 120, "amount": 1 }
+            ],
+            "recipes": [120],
+            "playable": true,
+            "tags": [ 1 ],
+            "image": 14,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        }
+    ],
+    "professions": [
+        {
+            "id": 100002,
+            "name": "Goombamancer",
+            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 180, "amount": 1 }, 
+                { "id": 55, "amount": 1 },
+                { "id": 326, "amount": 12}
+            ],
+            "recipes": [],
+            "image": 19
+        }
+    ]
+}
