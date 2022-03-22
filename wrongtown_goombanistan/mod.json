@@ -1,0 +1,18 @@
+{
+	"author": "Wrongtown",
+	"clear_map": false,
+	"description": "Core + Core GFX + a thick layer of melty cheese themed after Goombanna's Twitch channel.",
+	"disable_3d": false,
+	"disable_transition_tiles": false,
+	"draw_all_glyphs": true,
+	"game_required": "1.0.6",
+	"icon": "goomWink.png",
+	"mods_required": [
+		"core",
+		"core_gfx"
+	],
+	"name": "Goombanistan",
+	"overwrite": true,
+	"thumbnail": "",
+	"version": "0.0.1"
+}
