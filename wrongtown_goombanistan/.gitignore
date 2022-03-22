@@ -1,0 +1,12 @@
+#Sublime Text artefacts
+*.sublime-project
+*.sublime-workspace
+
+#Visual Studio Code artefacts
+*.code-workspace
+
+#Other Mods
+core/*.*
+core_gfx/*.*
+gitignore/*.*
+
