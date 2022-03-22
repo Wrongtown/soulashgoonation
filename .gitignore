@@ -6,7 +6,7 @@
 *.code-workspace
 
 #Other Mods
-core/*.*
-core_gfx/*.*
-gitignore/*.*
+core/*
+core_gfx/*
+gitignore/*
 
