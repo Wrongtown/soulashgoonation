@@ -1,0 +1,113 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 1,
+		"frost": 0,
+		"holy": 0,
+		"parry": 0,
+		"physical": 0,
+		"poison": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			2
+		],
+		"behaviors": [
+			0,
+			16
+		],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"minimap_pixel"
+	],
+	"corpse": 334,
+	"description": "A wily and surprisingly powerful creature.",
+	"dialogues": [
+		2,
+		0
+	],
+	"experience_gainer": {
+		"exp": 2,
+		"level": 1
+	},
+	"fighter": {
+		"attackNames": [
+			"Bite",
+			"Scratch"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 1502
+			}
+		]
+	},
+	"health": 20,
+	"id": 200010,
+	"minimap_pixel": [
+		188,
+		88,
+		0
+	],
+	"moveable": {
+		"speed": 1.2000000476837158
+	},
+	"name": "Mongoose",
+	"sight": {
+		"infravision": true,
+		"range": 6
+	},
+	"statistics": {
+		"dexterity": [
+			10,
+			15
+		],
+		"endurance": [
+			5,
+			8
+		],
+		"intelligence": [
+			3,
+			8
+		],
+		"strength": [
+			10,
+			15
+		],
+		"willpower": [
+			3,
+			8
+		]
+	},
+	"tags": [
+		2,
+		9
+	]
+}
