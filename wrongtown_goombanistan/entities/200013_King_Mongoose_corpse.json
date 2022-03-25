@@ -10,7 +10,7 @@
 		"weight",
 		"minimap_pixel"
 	],
-	"description": "The scorched body of a mongoose monarch.",
+	"description": "The twisted body of a mongoose monarch.",
 	"glyph": {
 		"frames": [
 			{
@@ -20,7 +20,7 @@
 					255
 				],
 				"delay": 0,
-				"index": 1505
+				"index": 1504
 			}
 		]
 	},

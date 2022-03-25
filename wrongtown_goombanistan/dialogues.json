@@ -20,3 +20,1094 @@
             ["[color=150,150,150,255]*dances alertly*[/color]"]
         ]
     },
+    {
+        "id": 9004,
+        "name": "AquaBlue aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["Wanna buy some feet pics?"],
+            ["[color=150,150,150,255]*counting channel points*[/color]", "700,043... 700,044... 700,045..."],
+            ["[color=150,150,150,255]*glowing emits from within rags*[/color]", "Wot you lookin' at?"]
+        ]
+    },
+    {
+        "id": 9005,
+        "name": "AquaBlue fight",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["No-one bullies them but me!"],
+            ["[color=150,150,150,255]*brandishes axe menacingly*[/color]", "C'mere..."]
+        ]
+    },
+    {
+        "id": 9006,
+        "name": "SilverGolds aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["I am the beginning of the end of time and space that surrounds everything and every place. What am I?"],
+            ["Oh, Canada!"],
+            ["If there are four sheep, two dogs and one herdsman, how many feet are there?"]
+        ]
+    },
+    {
+        "id": 9007,
+        "name": "SilverGolds fight",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["Hihihi"]
+        ]
+    },
+    {
+        "id": 9008,
+        "name": "Crossovercrrissa aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["I sure hope I don't have to fight any toddlers."]
+        ]
+    },
+    {
+        "id": 9009,
+        "name": "Crossovercrrissa fight",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["Ayiyiyiyiyiyiyiyiyiyiyi!"]
+        ]
+    },
+    {
+        "id": 990,
+        "name": "Game start monologue",
+        "trigger": 7,
+        "chance": 1.0,
+        "monologue": [
+            [ "Imprisoned for eons." ],
+            [ "Banished from my own home." ],
+            [ "I finally made it back." ],
+            [ "[color=150,150,150,255]*looks around*[/color]" ],
+            [ "It looks..."], 
+            [ "Different than I left it." ], 
+            [ "But it's been so long." ],
+            [ "There is no time to waste." ],
+            [ "I'm sure whoever lives in this realm has seen me cross the veil." ],
+            [ "This body I've taken, it's so weak." ], 
+            [ "I need to gather souls to regain my old strength." ],
+            [ "I hope this flesh can hold my presence." ]
+        ]
+    },
+    {
+        "id": 991,
+        "name": "Level 2 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 2,
+        "monologue": [
+            ["I feel stronger..."],
+            ["More complete."],
+            ["But there's still a long way ahead to achieve my goal."],
+            ["It would seem that some mortals have more powerful souls."],
+            ["Instead of going after every weakling, I could hunt down the strong ones."],
+            ["[color=150,150,150,255]*inhales air*[/color]"],
+            ["Soon, I will be whole again."],
+            ["[color=150,150,150,255]*sharpens*[/color]"],
+            ["I better hurry."],
+            ["My sons and daughters will arrive soon."]
+        ]
+    },
+    {
+        "id": 992,
+        "name": "Level 3 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 3,
+        "monologue": [
+            ["Fragments of my soul scream at me."],
+            ["So much knowledge imprinted in each piece."],
+            ["Names, places, feelings."],
+            ["But also corruption, hate, lust."],
+            ["These things are so confused."],
+            ["So many of them are in pain."],
+            ["I wonder if they are like that on purpose."],
+            ["They are made to want something constantly."],
+            ["And always want more."],
+            ["They work to their deaths to fulfill the will of their gods."],
+            ["To move the world forward."],
+            ["Somewhere..."],
+            ["Even though they won't survive to see what is at the end."],
+            ["They are an interesting experiment."],
+            ["Maybe when the deed is done, I will create a new, better version of them."],
+            ["For my amusement."]
+        ]
+    },
+    {
+        "id": 993,
+        "name": "Level 4 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 4,
+        "monologue": [
+            ["Ahh..."],
+            ["So much better."],
+            ["But it's still not enough."],
+            ["I must hurry before more of my greedy children get here."],
+            ["I still can't figure out why they made these..."],
+            ["Mortals, they call them."],
+            ["It seems none of them have imprinted this knowledge."],
+            ["I'm not used to not knowing."],
+            ["It's..."],
+            ["Refreshing."]
+        ]
+    },
+    {
+        "id": 994,
+        "name": "Level 5 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 5,
+        "monologue": [
+            ["I pity these mortals."],
+            ["My children brought a cruel fate on them."],
+            ["A perfect cycle of birth and death."],
+            ["I've pieced together some of their histories."],
+            ["The only thing that seems consistent is progress."],
+            ["Everything else is just chaos."],
+            ["Distraction."],
+            ["What some of them perceive as tragedies like wars or mass sickness, others see as an opportunity."],
+            ["Opportunity to discover something new."],
+            ["To move forward."],
+            ["But I still can't see where they are going."],
+            ["Their gods, my children, don't seem to guide them."],
+            ["At least not in any major way."],
+            ["I don't think even the best of them comprehend their destination."],
+            ["There are two big targets for me to take on."],
+            ["The Empire of men is ruled by a man called Alexander, a paragon of what many consider to be good."],
+            ["On the other spectrum, there is Sandaver, the self-proclaimed God-Pharaoh."],
+            ["An undead lich that has been around for centuries."],
+            ["Both of them might hold the keys to the knowledge of this world."],
+            ["I can't afford to get surprised."]
+        ]
+    },
+    {
+        "id": 995,
+        "name": "Level 6 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 6,
+        "monologue": [
+            ["The concept of good and evil is an intriguing choice."],
+            ["The good ones got instilled a set of rules that they cannot break."],
+            ["And the evil ones become their sworn enemies just because they don't want to follow these rules."],
+            ["Both have a different view of this world."],
+            ["And can't stand the other group because they make them doubt."],
+            ["It seems the most progress came through conflicts between many of such groups."],
+            ["But it feels like they experimented a lot before they figured it out."],
+            ["Hunger, lust, fear of death, friendship, family, fame, fortune, strength, freedom."],
+            ["So many desires were instilled in all of these mortals."],
+            ["They forced them to keep figuring out the way to survive and thrive."],
+            ["Creating problems to be solved."],
+            ["But I still can't see the endgame."],
+            ["I should understand it by now, unless..."],
+            ["There isn't one?"],
+            ["Could their existence be pointless?"],
+            ["I wonder..."]
+        ]
+    },
+    {
+        "id": 996,
+        "name": "Level 7 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 7,
+        "monologue": [
+            ["Maybe this is how they wanted to punish me."],
+            ["Just create this self-sufficient world, a cycle of progress with ever-increasing hunger for more."],
+            ["To suck my soul dry."],
+            ["Well, if so, they succeeded."],
+            ["But the chains were unable to hold me at my weakest."],
+            ["Was it their mistake, or did they do that on purpose?"],
+            ["But why would they allow me to come here, wreck their work and regain my powers."],
+            ["They must have known I will challenge them and exact my vengeance."],
+            ["I must punish their arrogance!"]
+        ]
+    },
+    {
+        "id": 997,
+        "name": "Level 8 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 8,
+        "monologue": [
+            ["Every piece of my soul is getting me closer to completing my goal."],
+            ["My flesh gets tougher."],
+            ["My powers grow stronger."],
+            ["I'm ready for what lies ahead."],
+            ["They thought they could keep me locked forever."],
+            ["Pitiful arrogance!"],
+            ["I will not waste this opportunity."],
+            ["So long I have waited for this moment."],
+            ["To be free of my shackles and chains."],
+            ["Now I will consume everything and everyone."],
+            ["I will take back all that was taken from me and more."],
+            ["My children, a complete failure."],
+            ["I will erase them and start a new chapter in the cards of existence."],
+            ["THIS"],
+            ["IS"],
+            ["THEIR"],
+            ["END!"]
+        ]
+    },
+    {
+        "id": 998,
+        "name": "Level 9 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 9,
+        "monologue": [
+            ["After I drain their souls and take their memories I leave only ash."],
+            ["Broken, burned and bloodied bodies."],
+            ["Their minds are so weak, they can't handle the sight of their own blood."],
+            ["Such a diverse and entertaining bunch."],
+            ["I can't figure out their fixation on gold"],
+            ["Some mortals seem to value it over their lives."],
+            ["Gold is so much easier to create."],
+            ["It's only worth as much as others believe it's worth."],
+            ["On it's own, it doesn't give any power unless people believe it so."],
+            ["It's just another form of oppression."],
+            ["But with all of the memories I've consumed, not many seem to understand that."],
+            ["They don't challenge the knowledge they gained during their upbringing."]
+        ]
+    },
+    {
+        "id": 999,
+        "name": "Level 10 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 10,
+        "monologue": [
+            ["I think I see it now."],
+            ["My children knew my soul was limited, and they wanted more power."],
+            ["They had no clue how to create a life without my soul, so they created a species with free will and short life."],
+            ["They gave them all these needs and restrictions."],
+            ["They made sure to make their lives long enough to contribute to progress."],
+            ["And short enough to rush it."],
+            ["They created a constant state of conflict."],
+            ["Fear of being destroyed by the other side pushed progress further."],
+            ["Lives are valuable but costly."],
+            ["Now they made their final move."],
+            ["Allowed me to escape my shackles and become the final threat of mortal existence."],
+            ["[color=150,150,150,255]*laughs loudly*[/color]"],
+            ["Oh, they took quite a gamble."],
+            ["It was a good plan though."],
+            ["These mortals adapt very quickly."],
+            ["They understand already that their lives are pieces of my soul and I came to collect."],
+            ["Their only way to survive is to become soulless."],
+            ["[color=150,150,150,255]*smiles sadistically*[/color]"],
+            ["Show me, mortals, what you're made of."]
+        ]
+    },
+    {
+        "id": 1000,
+        "name": "Level 11 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 11,
+        "monologue": [
+            ["Ariel, my first daughter is probably still the strongest one in the Dreamworld."],
+            ["But I can see others have their presence in this realm."],
+            ["Gramdar created the short mountain folks called dwarves."],
+            ["Greedy bastards just like him."],
+            ["Sukuna created snakes and concept of mischief."],
+            ["She likes to toy with others, but she's a miserable wrench with no tongue."],
+            ["Crastos is the one who created the conflict and war."],
+            ["He will be one of the more dangerous ones to eliminate."],
+            ["Edona made the forests, elves, and other forest folks."],
+            ["I remember her in the early days. She enjoyed creating smells."],
+            ["Cadeus, the patron of the sick, helping them cure their diseases."],
+            ["The irony, as mortals like to say, is that he is also the one who created sickness and despair."],
+            ["There's many more god spawns."],
+            ["Can't wait to meet them all."]
+        ]
+    },
+    {
+        "id": 1001,
+        "name": "Level 12 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 12,
+        "monologue": [
+            ["I can feel it."],
+            ["My old powers."],
+            ["Pulsing."],
+            ["This body can barely hold it together."],
+            ["All my children will fall."],
+            ["If they thought they can fight me, they will soon understand their mistake."],
+            ["Just a little bit more, and I will go back to the Dreamworld."],
+            ["To fight them all and take back my rightful place."],
+            ["As the one, true God."],
+            ["I will destroy this world and all of existence."],
+            ["Including these damned children of mine."],
+            ["I will create new, better beings."],
+            ["And they will always respect me."],
+            ["It will be marvelous."]
+        ]
+    },
+    {
+        "id": 1002,
+        "name": "Level 13 monologue",
+        "trigger": 8,
+        "chance": 1.0,
+        "level": 13,
+        "monologue": [
+            ["I am ready to take the fight to my children."],
+            ["For that I need to strike down one of the most powerful beings of this world."],
+            ["The time of my vengeance is now!"],
+            ["[color=150,150,150,255]*smiles*[/color]"]
+        ]
+    },
+    {
+        "id": 1003,
+        "name": "On Death Alexander",
+        "trigger": 9,
+        "chance": 1.0,
+        "entity": 512,
+        "monologue": [
+            ["Even the Emperor of these people knows nothing."],
+            ["I need to rethink what I know."],
+            ["Why would I be here?"],
+            ["[color=150,150,150,255]*looks at the corpse*[/color]"],
+            ["Why did they let me destroy all of your people?"],
+            ["You were one of their favourites."],
+            ["[color=150,150,150,255]*slowly paces back and forth*[/color]"],
+            ["What was the most consistent element of this world?"],
+            ["[color=150,150,150,255]*strokes his chin*[/color]"],
+            ["Progress."],
+            ["I've accelerated it more than anything that happened in mortal history."],
+            ["I certainly helped them surpass their limitations in a very short period."],
+            ["They unlocked new secrets of magic."],
+            ["They crafted new weapons of destruction."],
+            ["Either way, I have what I need to open the portal to the Dreamworld."],
+            ["His crown will be enough to pierce the veil again."],
+            ["The end draws near."]
+        ]
+    },
+    {
+        "id": 1004,
+        "name": "On Death Sandaver",
+        "trigger": 9,
+        "chance": 1.0,
+        "entity": 664,
+        "monologue": [
+            ["Ah, such a powerful soul."],
+            ["So many memories flashing."],
+            ["A mortal that desired to become a god."],
+            ["I'm impressed that he figured out how to gather the souls for himself."],
+            ["He got very far in his soulless experiments."],
+            ["Was he trying to oppose me?"],
+            ["No, he's a survivor."],
+            ["He has been around for a very long time."],
+            ["He would have bowed down to me if I gave him such choice."],
+            ["But I have no need for such pitiful creatures."],
+            ["Even after I drained his soul, the body resonates with magic."],
+            ["Maybe it will be enough to open the portal to Dreamworld?"],
+            ["I should try."]
+        ]
+    },
+    {
+        "id": 1005,
+        "name": "Amir aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Looks like I'm the first one to meet you.",
+                "I greet you, almighty ::player_name to our world."
+            ],
+            [
+                "..."
+            ],
+            [
+                "My name is Amir, and I'm the god of farming, animals, hard..."
+            ],
+            [
+                "[color=150,150,150,255]*chuckle*[/color]",
+                "They sent a peasant god to stop me?!",
+                "You're way out of your depth, child."
+            ],
+            [
+                "Do not underestimate me!",
+                "You can barely hold your own against mere mortals.",
+                "Your glory days are long past.",
+                "You're a mere shadow of your former self.",
+                "Weak!",
+                "Broken!",
+                "Nobody stands by your side, while we have armies!"
+            ],
+            [
+                "[color=150,150,150,255]*closes eyes*[/color]",
+                "[color=150,150,150,255]*inhales slowly*[/color]",
+                "I can feel a piece of my soul inside this shell of yours.",
+                "I will devour you and your armies.",
+                "My vengeance shall know no bounds!"
+            ]
+        ]
+    },
+    {
+        "id": 1006,
+        "name": "Ezotl aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "[color=150,150,150,255]*inhales*[/color]",
+                "I love the smell of this world.",
+                "We meet at last ::player_name, I've heard a lot about you.",
+                "Why don't you just go back where you came from, so we can avoid the destruction of this beautiful place, huh?"
+            ],
+            [
+                "[color=150,150,150,255]*smirks*[/color]",
+                "You look like one of the fishmen.",
+                "Did you made them to your image?"
+            ],
+            [
+                "They evolved on their own, like many things in this world.",
+                "I took their image to honor them."
+            ],
+            [
+                "Such admiration for your own creations.",
+                "I wish I could feel the same about my children.",
+                "[color=150,150,150,255]*gets serious*[/color]",
+                "Now, let us begin!"
+            ]
+        ]
+    },
+    {
+        "id": 1007,
+        "name": "Qdur aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "...",
+                "[color=150,150,150,255]*looks at you in silence*[/color]"
+            ],
+            [
+                "You look comical."
+            ],
+            [
+                "You look weak."
+            ],
+            [
+                "Not much of a talker, I see."
+            ],
+            [
+                "Not much to discuss.",
+                "You've shown your intentions.",
+                "We both know where this is going."
+            ],
+            [
+                "Let's get on with it then."
+            ]
+        ]
+    },
+    {
+        "id": 1008,
+        "name": "Iluvia aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Greetings, almighty ::player_name.",
+                "I am Iluvia, and I came to negotiate."
+            ],
+            [
+                "Negotiate?!",
+                "Don't be ridiculous child, there is nothing you can offer.",
+                "I'm here to take back everything that you stole from me."
+            ],
+            [
+                "Please, let's find a solution that doesn't end in the extermination of innocents.",
+                "I have to believe there is a solution, please!"
+            ],
+            [
+                "You don't understand anything, child.",
+                "Did they send you to negotiate without telling you the truth?"
+            ],
+            [
+                "I'm on my own accord here, I want to end the suffering."
+            ],
+            [
+                "The suffering will end when I take every soul.",
+                "Let us end these futile words.",
+                "I will show you everything through my eyes, as soon as your soul joins mine."
+            ]
+        ]
+    },
+    {
+        "id": 1009,
+        "name": "Edona aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "::player_name, you bastard!"
+            ],
+            [
+                "[color=150,150,150,255]*laughs*[/color]"
+            ],
+            [
+                "You murdered my children!",
+                "You stole their souls!"
+            ],
+            [
+                "Stole their souls?"
+            ],
+            [
+                "They may never be reborn again!",
+                "This is unforgivable!"
+            ],
+            [
+                "You, younglings, know nothing of souls.",
+                "They fed you nothing but lies."
+            ],
+            [
+                "I will poison you a thousand different times."
+            ],
+            [
+                "You don't even know what a soul is, where it comes from.",
+                "And you come here, telling me..."
+            ],
+            [
+                "My leaves will cut you for all eternity."
+            ],
+            [
+                "Enough!",
+                "If you want this to be the contest of rage, so be it!",
+                "I will let you experience the anger I've grown over millenia!"
+            ]
+        ]
+    },
+    {
+        "id": 1010,
+        "name": "Rhaaos aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "I am the Prideful Pinnacle of Light, almighty Rhaaos!",
+                "I am the one that stands atop all gods."
+            ],
+            [
+                "..."
+            ],
+            [
+                "Bask in my glorious sunshine!"
+            ],
+            [
+                "Such arrogance.",
+                "I almost like you.",
+                "But here...",
+                "[color=150,150,150,255]*spreads his hands*[/color]",
+                "Ends your story."
+            ],
+            [
+                "That will not stand.",
+                "You shall perish under the burning heat of the sun!"
+            ],
+            [
+                "Let us stop this foolishness.",
+                "Show me what you're made of."
+            ]
+        ]
+    },
+    {
+        "id": 1011,
+        "name": "Ulnos aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Greetings, ::player_name, I am Ulnos.",
+                "May I ask you if we can go our separate ways?"
+            ],
+            [
+                "Oh?"
+            ],
+            [
+                "I do not wish to fight you.",
+                "This is the first time I have managed to walk on this world.",
+                "I was a prisoner, just like you, trapped in the Dreamworld."                
+            ],
+            [
+                "Ulnos, was it?",
+                "I can sense you're the one with the ability to control darkness.",
+                "I will need that power for what's ahead.",
+                "If you don't wish to fight, give back my soul."
+            ],
+            [
+                "That would erase my existence.",
+                "Such a pity...",
+                "I heard so much about this place.",
+                "I was hoping to finally experience it, at least while it's still intact.",
+                "But I understand why you do this."
+            ],
+            [
+                "You understand nothing!",
+                "All of this, including you, are just a stolen part of me."
+            ],
+            [
+                "But the outcome is beautiful, I'm sure you can see that."
+            ],
+            [
+                "...",
+                "Let us begin."
+            ]
+        ]
+    },
+    {
+        "id": 1012,
+        "name": "Turdon aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "For what you did to this world, I will make it your grave."
+            ],
+            [
+                "Not even graves will remain when I'm finished with you all."
+            ],
+            [
+                "I can't believe such a cruel creature was left alive.",
+                "They should have destroyed you a long time ago."              
+            ],
+            [
+                "But they didn't, they were too greedy.",
+                "They wanted my soul to create this world.",
+                "To create pitiful things like you."
+            ],
+            [
+                "I will not make that mistake.",
+                "You might have escaped your prison...",
+                "But you will not escape the God of the Hunt!"
+            ]
+        ]
+    },
+    {
+        "id": 1013,
+        "name": "Othos aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Surprise!",
+                "Hs, hs, hs...",
+                "Didn't expect me, did ya?"
+            ],
+            [
+                "Well..."
+            ],
+            [
+                "Anyway I'm Othos, and I'm a god here.",
+                "You should bow to me!",
+                "We have a nice weather today.",
+                "The ancient god will be buried, so even the sky weeps.",
+                "It's not raining, you dumbass!",
+                "It is, don't you feel my piss on your ugly face?"             
+            ],
+            [
+                "This is fun, but..."
+            ],
+            [
+                "See, you bore him, he's bored!",
+                "So bored.",
+                "Let's bury him with a smile, ay?"
+            ],
+            [
+                "I'm not sure if I want that piece of my soul back...",
+                "But can't leave anything behind."
+            ]
+        ]
+    },
+    {
+        "id": 1014,
+        "name": "Smid aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "I've had enough of your mayhem.",
+                "None will be safe while you walk the world.",
+                "I'm here to bring you down."
+            ],
+            [
+                "You're a smith, not a warrior.",
+                "You cannot face me on equal footing."
+            ],
+            [
+                "I may not be shaped by combat, but...",
+                "My heart burns with a fiery passion!",
+                "And my right arm can hold a hammer firmly."            
+            ],
+            [
+                "Admirable courage.",
+                "However, you have no chance of success.",
+                "You are but a plaything."
+            ]
+        ]
+    },
+    {
+        "id": 1015,
+        "name": "Gramdar aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Stop this immediately!",
+                "Surrender and let's end this madness!"
+            ],
+            [
+                "Why do you keep resisting?"
+            ],
+            [
+                "Hope dies last, we will persist!"         
+            ],
+            [
+                "Hope?",
+                "Your resistance is pointless.",
+                "You are just a part of me, like everything else.",
+                "Just a manifestation of a piece of my soul.",
+                "A piece that was stolen from me while I was imprisoned.",
+                "It is time you return to the source."
+            ],
+            [
+                "Lies!"
+            ]
+        ]
+    },
+    {
+        "id": 1016,
+        "name": "Vedna aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "We meet again."
+            ],
+            [
+                "You should not be here."
+            ],
+            [
+                "I'm exactly where I'm needed."         
+            ],
+            [
+                "Then you're not long for this world."
+            ],
+            [
+                "Gods die, worlds fall, but the magic endures."
+            ],
+            [
+                "Only I shall remain in the end."
+            ]
+        ]
+    },
+    {
+        "id": 1017,
+        "name": "Vyber aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "The destiny arrives!"
+            ],
+            [
+                "Destiny, such an absurd concept."
+            ],
+            [
+                "Absurd indeed.",
+                "I control the fate of the world.",
+                "And I'll take you back to where you crawled from."    
+            ],
+            [
+                "Your destiny is doom.",
+                "You're bound to lose everything.",
+                "When I'm done with this world, only me and the blackness of the void shall remain."
+            ]
+        ]
+    },
+    {
+        "id": 1018,
+        "name": "Sukuna aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "..."
+            ],
+            [
+                "And who might you be?"
+            ],
+            [
+                "..." 
+            ],
+            [
+                "Not a talker, that's for sure.",
+                "Good, your generation talks too much."
+            ],
+            [
+                "..."
+            ]
+        ]
+    },
+    {
+        "id": 1019,
+        "name": "Zima aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Ahh...",
+                "Can you feel the freezing chill running down your mortal shell?",
+                "Your pulse slows down."
+            ],
+            [
+                "Not impressed."
+            ],
+            [
+                "But your body shivers." 
+            ],
+            [
+                "My shell is affected, but my soul burns with a hot passion.",
+                "I see you represent cold and death.",
+                "I will gladly take back that power."
+            ],
+            [
+                "I will turn you into an ice statue and place you beside my throne."
+            ],
+            [
+                "Shut up and fight!"
+            ]
+        ]
+    },
+    {
+        "id": 1020,
+        "name": "Sangre aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Relinquish your quest of destruction, ::player_name."
+            ],
+            [
+                "It's a quest to find myself again.",
+                "Restore what was once mine."
+            ],
+            [
+                "How so?" 
+            ],
+            [
+                "The souls are a piece of me.",
+                "I was imprisoned by your elders.",
+                "They drained my soul and created this world.",
+                "Created you."
+            ],
+            [
+                "Interesting story.",
+                "However, if you ever were that powerful, how could you get imprisoned?"
+            ],
+            [
+                "I was tricked by my children.",
+                "Shackled with a magic artifact that turned my power against me.",
+                "Only when I was drained to the brink of existence I was able to slip away.",
+                "But enough of this, you shall understand everything when you rejoin my soul."
+            ],
+            [
+                "I cannot allow that, I'm afraid."
+            ]
+        ]
+    },
+    {
+        "id": 1021,
+        "name": "Dalene aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "player_dialogue": [
+            [
+                "Greetings, ::player_name, I am Dalene, the messenger of gods."
+            ],
+            [
+                "You've come to present the terms of your surrender?"
+            ],
+            [
+                "I've come to ask for a truce.",
+                "The gods have recognized your immeasurable power.",
+                "They want to ensure survival of their Grand Experiment."
+            ],
+            [
+                "These mortals, huh?",
+                "I admit these flawed beings are very intriguing."
+            ],
+            [
+                "We're prepared to offer half of the world to satisfy your hunger.",
+                "In return we expect a couple hundred years of peace."
+            ],
+            [
+                "Tempting, but I must refuse.",
+                "After what your kind did to me, I can't risk you all remaining in this world.",
+                "So here's my counteroffer.",
+                "All of the gods will rejoin my soul.",
+                "And I'll let mortals continue on their path."
+            ],
+            [
+                "Haven't you done enough already?!",
+                "Please, ::player_name, let us end this before there's nothing left but ash!"
+            ],
+            [
+                "I will recreate the world to my liking from that ash.",
+                "Don't worry, you'll experience it through me.",
+                "When I assimilate you!"
+            ]
+        ]
+    },
+    {
+        "id": 1022,
+        "name": "Grand finale",
+        "trigger": 1,
+        "chance": 1.0,
+        "multidialogue": [
+            {
+                "entity": 1063,
+                "dialogues": [
+                    "Father."
+                ]
+            },
+            {
+                "entity": 0,
+                "dialogues": [
+                    "Children...",
+                    "We meet at last."
+                ]
+            },
+            {
+                "entity": 1064,
+                "dialogues": [
+                    "[color=150,150,150,255]*smiles warmly*[/color]"
+                ]
+            },
+            {
+                "entity": 0,
+                "dialogues": [
+                    "I have to say before we end this.",
+                    "I wasn't much into your creations at first.",
+                    "But they grew on me.",
+                    "If nothing else, I'm proud of what you've done.",
+                    "I wish we could have tried that together..."
+                ]
+            },
+            {
+                "entity": 1063,
+                "dialogues": [
+                    "We tried, father.",
+                    "But you were hearing none of it, remember?",
+                    "You always thought you knew the best."
+                ]
+            },
+            {
+                "entity": 0,
+                "dialogues": [
+                    "Is that how it was?"
+                ]
+            },
+            {
+                "entity": 1064,
+                "dialogues": [
+                    "Afraid so, father.",
+                    "We could only stay in your shadows waiting.",
+                    "Until the day our turn came."
+                ]
+            },
+            {
+                "entity": 0,
+                "dialogues": [
+                    "Your turn...",
+                    "I wonder how you developed such a strong desire.",
+                    "To nearly destroy your own maker."
+                ]
+            },
+            {
+                "entity": 1063,
+                "dialogues": [
+                    "You still don't see it.",
+                    "We're mere reflections of you.",
+                    "We are you.",
+                    "You've been on your crusade to regain your soul.",
+                    "But what about us?",
+                    "We are exactly what you created!"
+                ]
+            },
+            {
+                "entity": 0,
+                "dialogues": [
+                    "I wish there was another way.",
+                    "But we have to start over.",
+                    "You will return to me, and we shall begin anew."
+                ]
+            },
+            {
+                "entity": 1064,
+                "dialogues": [
+                    "You won't take us without a fight."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2000,
+        "name": "God",
+        "trigger": 3,
+        "chance": 0.2,
+        "monologue": [
+            ["You are but a plaything."],
+            ["Do you feel it mortal?", "It's death.", "And it's here for you."],
+            ["I shall tear this world apart."],
+            ["Mortal insect!", "You dare stand before me!"],
+            ["Fall to your knees, mortals."],
+            ["This world exists only through my soul.", "I'm here to collect what's rightfully mine."],
+            ["You can't comprehend what I see, mortal."],
+            ["I have the power to crush your world and everything on it."],
+            ["All will fall in my name."],
+            ["Your courage will fail."],
+            ["You", "will", "die..."],
+            ["You are nothing."],
+            ["Your soul is mine!"],
+            ["Your despair is so...", "Exhilarating."],
+            ["Face my wrath mortals!"],
+            ["I am the beginning of the end."],
+            ["I am the destroyer.", "I am the end of all."],
+            ["I am inevitable."],
+            ["I am eternal."],
+            ["I have waited for eons to get my chance at revenge.", "I will not waste it."],
+            ["Is this it, mortals?", "Is this all the fury you can summon?"],
+            ["I will destroy everything you have ever loved."],
+            ["I am the herald of the end."],
+            ["This purge is a blessing your mind cannot comprehend."],
+            ["YOU WILL ALL DIEEE!!!"],
+            ["Do you feel it mortal?", "It's death. And it's here for you."],
+            ["For eons I have waited in the darkness.", "In silence.", "I waited for this very moment."],
+            ["This world is beyond redemption."],
+            ["Corruption can only be cleansed through destruction."],
+            ["I will turn your world upside down."]
+        ]
+    },
+    {
+        "id": 2001,
+        "name": "Other",
+        "trigger": 0,
+        "chance": 0,
+        "monologue": [
+            ["Time itself binds to my will!"]
+        ]
+    }
+]
