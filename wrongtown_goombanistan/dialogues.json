@@ -1,0 +1,22 @@
+    {
+        "id": 9002,
+        "name": "Maracababy aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["[color=150,150,150,255]*dances adorably*[/color]"],
+            ["[color=150,150,150,255]*shimmies*[/color]"],
+            ["[color=150,150,150,255]*smiles vacantly*[/color]"]
+        ]
+    },
+    {
+        "id": 9003,
+        "name": "Maracababy fight",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["[color=150,150,150,255]*shakes maracas menacingly*[/color]"],
+            ["[color=150,150,150,255]*adopts a fighting stance*[/color]"],
+            ["[color=150,150,150,255]*dances alertly*[/color]"]
+        ]
+    },

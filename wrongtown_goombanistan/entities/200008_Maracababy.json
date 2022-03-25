@@ -43,10 +43,10 @@
 		"tags"
 	],
 	"corpse": 25,
-	"description": "Premiuere entertainment from Goombanistan!",
+	"description": "Premiere entertainment from Goombanistan!",
 	"dialogues": [
-		2,
-		43
+		9002,
+		9003
 	],
 	"equipment": {
 		"left_hand": [
