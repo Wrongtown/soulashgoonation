@@ -1,0 +1,27 @@
+{
+	"animation": 200001,
+	"cast_time": 1.0,
+	"cooldown": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "Loudly gobble like a turkey at your enemy dealing ::damage ::damage_type damage, with a chance to stop them in their tracks.",
+	"duration": 5.0,
+	"effects": {
+		"damage": [
+			5,
+			10
+		],
+		"damage_type": "physical",
+		"immobilize": 90,
+		"knockback": 1
+	},
+	"id": 100005,
+	"image": 384,
+	"level": 1,
+	"name": "Party Trick",
+	"profession": 100002,
+	"range": 5,
+	"target": "health"
+}

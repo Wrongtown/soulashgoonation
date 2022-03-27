@@ -1,4 +1,13 @@
 {
+  "sounds": {
+    "combat": [
+      {
+        "id": 999,
+        "name": "Turkey gobble",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TurkeyGobble.ogg"
+      }
+    ]
+  },
   "graphics": {
     "tilesheets": [
       {
