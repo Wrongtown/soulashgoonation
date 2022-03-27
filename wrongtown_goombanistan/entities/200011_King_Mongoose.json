@@ -1,4 +1,7 @@
 {
+	"ability_user": [
+		100002
+	],
 	"armor": {
 		"acid": 0,
 		"death": 0,
@@ -11,16 +14,15 @@
 		"poison": 0
 	},
 	"artificial_intelligence": {
-		"allies": [
-			
-		],
+		"allies": [],
+		"allow_production": [],
 		"behaviors": [
-			0,
 			16
 		],
 		"enemies": []
 	},
 	"components": [
+		"ability_user",
 		"actor",
 		"armor",
 		"artificial_intelligence",
@@ -31,14 +33,14 @@
 		"glyph",
 		"health",
 		"humanoid",
+		"minimap_pixel",
 		"moveable",
 		"name",
 		"position_2d",
 		"sight",
 		"stamina",
 		"statistics",
-		"tags",
-		"minimap_pixel"
+		"tags"
 	],
 	"corpse": 334,
 	"description": "A noble and majestic specimen.",
@@ -67,7 +69,8 @@
 				"delay": 0,
 				"index": 1503
 			}
-		]
+		],
+		"random_frame_start": false
 	},
 	"health": 100,
 	"id": 200011,
@@ -77,12 +80,14 @@
 		0
 	],
 	"moveable": {
-		"speed": 1.5000000476837158
+		"speed": 1.5
 	},
 	"name": "King Mongoose",
 	"sight": {
+		"ignore_infra_penalty": false,
 		"infravision": true,
-		"range": 6
+		"range": 6,
+		"threesixty": false
 	},
 	"statistics": {
 		"dexterity": [

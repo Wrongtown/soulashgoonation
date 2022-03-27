@@ -14,8 +14,8 @@
 		"allies": [
 			2
 		],
+		"allow_production": [],
 		"behaviors": [
-			0,
 			16
 		],
 		"enemies": []
@@ -31,20 +31,19 @@
 		"glyph",
 		"health",
 		"humanoid",
+		"minimap_pixel",
 		"moveable",
 		"name",
 		"position_2d",
 		"sight",
 		"stamina",
 		"statistics",
-		"tags",
-		"minimap_pixel"
+		"tags"
 	],
 	"corpse": 334,
 	"description": "A wily and surprisingly powerful creature.",
 	"dialogues": [
-		2,
-		0
+		2
 	],
 	"experience_gainer": {
 		"exp": 2,
@@ -67,9 +66,10 @@
 				"delay": 0,
 				"index": 1501
 			}
-		]
+		],
+		"random_frame_start": false
 	},
-	"health": 20,
+	"health": 10,
 	"id": 200010,
 	"minimap_pixel": [
 		188,
@@ -81,8 +81,10 @@
 	},
 	"name": "Mongoose",
 	"sight": {
+		"ignore_infra_penalty": false,
 		"infravision": true,
-		"range": 6
+		"range": 6,
+		"threesixty": false
 	},
 	"statistics": {
 		"dexterity": [
