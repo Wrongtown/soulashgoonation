@@ -1,22 +1,21 @@
 {
 	"animation": 236,
 	"cast_time": 1.0,
-	"cooldown": 500.0,
+	"cooldown": 2.0,
 	"cost": {
-		"health": 3,
+		"health": 0,
 		"stamina": 1
 	},
 	"description": "Summons a Mongoose that will try to protect you in combat and chase escaping enemies.",
-	"duration": 500.0,
+	"duration": 50.0,
 	"effects": {
 		"summon": 200010,
 		"summon_count": 3
 	},
 	"id": 100002,
-	"image": 100,
-	"level": 1,
+	"image": 280,
+	"level": 2,
 	"name": "Summon Mongoose",
-	"profession": 100002,
 	"range": 10,
 	"target": "tile"
 }

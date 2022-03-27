@@ -1,0 +1,22 @@
+{
+	"animation": 236,
+	"cast_time": 1.0,
+	"cooldown": 500.0,
+	"cost": {
+		"health": 0,
+		"stamina": 20
+	},
+	"description": "Summons the great Mongoose Monarch that will try to protect you in combat and chase escaping enemies.",
+	"duration": 500.0,
+	"effects": {
+		"summon": 200011,
+		"summon_count": 1
+	},
+	"id": 100003,
+	"image": 237,
+	"level": 2,
+	"name": "Summon King Mongoose",
+	"profession": 100002,
+	"range": 10,
+	"target": "tile"
+}
