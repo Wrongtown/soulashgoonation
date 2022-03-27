@@ -24,18 +24,18 @@
         "id": 9004,
         "name": "AquaBlue aware",
         "trigger": 1,
-        "chance": 1.0,
+        "chance": 100.0,
         "monologue": [
+            ["[color=150,150,150,255]*counting channel points*[/color] 700,043... 700,044... 700,045..."],
             ["Wanna buy some feet pics?"],
-            ["[color=150,150,150,255]*counting channel points*[/color]", "700,043... 700,044... 700,045..."],
             ["[color=150,150,150,255]*glowing emits from within rags*[/color]", "Wot you lookin' at?"]
         ]
     },
     {
         "id": 9005,
         "name": "AquaBlue fight",
-        "trigger": 1,
-        "chance": 1.0,
+        "trigger": 3,
+        "chance": 50.0,
         "monologue": [
             ["No-one bullies them but me!"],
             ["[color=150,150,150,255]*brandishes axe menacingly*[/color]", "C'mere..."]

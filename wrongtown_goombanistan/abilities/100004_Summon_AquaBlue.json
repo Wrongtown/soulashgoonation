@@ -1,0 +1,22 @@
+{
+	"animation": 236,
+	"cast_time": 1.0,
+	"cooldown": 500.0,
+	"cost": {
+		"health": 10,
+		"stamina": 30
+	},
+	"description": "Summons a Troll. This would usually be a bad idea, but this one seems nice?",
+	"duration": 500.0,
+	"effects": {
+		"summon": 200014,
+		"summon_count": 1
+	},
+	"id": 100004,
+	"image": 350,
+	"level": 3,
+	"name": "Summon AquaBlue",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}
