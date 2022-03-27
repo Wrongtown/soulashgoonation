@@ -1,0 +1,22 @@
+{
+	"animation": -1,
+	"cast_time": 0.20000000298023224,
+	"cooldown": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 1
+	},
+	"description": "Command your allies to attack targets in selected positions or move there if no target is available. Your allies may not obey your command, particularly if they get distracted or engaged in combat.\n\nHas no effect if you have no allies.",
+	"duration": 0.0,
+	"effects": {
+		"ally_command": 1,
+		"aoe_range": 4,
+		"aoe_shape": 1
+	},
+	"id": 170,
+	"image": 130,
+	"level": 0,
+	"name": "Command Allies",
+	"range": 10,
+	"target": "aoe_tile"
+}
