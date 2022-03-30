@@ -12,13 +12,19 @@
 	},
 	"artificial_intelligence": {
 		"allies": [
-			2
+			2,
+			5
 		],
 		"allow_production": [],
 		"behaviors": [
-			16
+			16,
+			5
 		],
-		"enemies": []
+		"enemies": [
+			9,
+			4,
+			3
+		]
 	},
 	"components": [
 		"actor",
@@ -40,7 +46,7 @@
 		"statistics",
 		"tags"
 	],
-	"corpse": 334,
+	"corpse": 200012,
 	"description": "A wily and surprisingly powerful creature.",
 	"dialogues": [
 		2
@@ -69,7 +75,7 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 10,
+	"health": 5,
 	"id": 200010,
 	"minimap_pixel": [
 		188,
