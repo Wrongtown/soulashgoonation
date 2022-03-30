@@ -9,8 +9,10 @@
 	"description": "Summons a Mongoose that will try to protect you in combat and chase escaping enemies.",
 	"duration": 50.0,
 	"effects": {
+		"aoe_range": 10,
+		"aoe_shape": 1,
 		"summon": 200010,
-		"summon_count": 3
+		"summon_count": 5
 	},
 	"id": 100002,
 	"image": 280,
