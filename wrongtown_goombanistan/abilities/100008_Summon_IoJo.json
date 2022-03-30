@@ -1,0 +1,22 @@
+{
+	"animation": 236,
+	"cast_time": 1.0,
+	"cooldown": 200.0,
+	"cost": {
+		"health": 10,
+		"stamina": 30
+	},
+	"description": "Summon IoJo, brother of AquaBlue, robotic Cat Lord.",
+	"duration": 200.0,
+	"effects": {
+		"summon": 200101,
+		"summon_count": 1
+	},
+	"id": 100008,
+	"image": 282,
+	"level": 1,
+	"name": "Summon IoJo",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}

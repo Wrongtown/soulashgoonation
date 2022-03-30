@@ -1,0 +1,24 @@
+{
+	"animation": 18,
+	"cast_time": 1.0,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 10,
+		"stamina": 30
+	},
+	"description": "Summons Cat",
+	"duration": 200.0,
+	"effects": {
+		"aoe_range": 10,
+		"aoe_shape": 1,
+		"summon": 47,
+		"summon_count": 10
+	},
+	"id": 100009,
+	"image": 302,
+	"level": 90,
+	"name": "Summon IoJo",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}
