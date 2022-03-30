@@ -1,0 +1,22 @@
+{
+	"animation": 236,
+	"cast_time": 1.0,
+	"cooldown": 200.0,
+	"cost": {
+		"health": 10,
+		"stamina": 30
+	},
+	"description": "Summon Silver Golds, Riddle-master of Goombanistan.",
+	"duration": 200.0,
+	"effects": {
+		"summon": 200100,
+		"summon_count": 1
+	},
+	"id": 100007,
+	"image": 282,
+	"level": 5,
+	"name": "Summon Silver Golds",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}
