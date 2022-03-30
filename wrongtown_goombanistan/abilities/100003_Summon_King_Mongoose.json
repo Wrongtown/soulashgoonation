@@ -1,13 +1,13 @@
 {
 	"animation": 236,
 	"cast_time": 1.0,
-	"cooldown": 500.0,
+	"cooldown": 200.0,
 	"cost": {
 		"health": 0,
 		"stamina": 20
 	},
 	"description": "Summons the great Mongoose Monarch that will try to protect you in combat and chase escaping enemies.",
-	"duration": 500.0,
+	"duration": 200.0,
 	"effects": {
 		"summon": 200011,
 		"summon_count": 1
