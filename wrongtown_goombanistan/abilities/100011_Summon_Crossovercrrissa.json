@@ -1,0 +1,22 @@
+{
+	"animation": 44,
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 10,
+		"stamina": 5
+	},
+	"description": "OMG BESTIE!",
+	"duration": 50.0,
+	"effects": {
+		"summon": 200107,
+		"summon_count": 1
+	},
+	"id": 100011,
+	"image": 408,
+	"level": 7,
+	"name": "Summon Crossovercrrissa",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}

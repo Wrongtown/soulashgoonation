@@ -1,0 +1,22 @@
+{
+	"animation": 9,
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 10,
+		"stamina": 5
+	},
+	"description": "Summon Decibel, sub-lord  extrodinaire.\n\nThere are some who call him.... Jim.",
+	"duration": 50.0,
+	"effects": {
+		"summon": 200108,
+		"summon_count": 1
+	},
+	"id": 100012,
+	"image": 228,
+	"level": 8,
+	"name": "Summon Decibel",
+	"profession": 100002,
+	"range": 5,
+	"target": "tile"
+}

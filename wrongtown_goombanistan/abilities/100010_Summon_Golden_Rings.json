@@ -1,0 +1,23 @@
+{
+	"animation": 139,
+	"cast_time": 1.0,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 1,
+		"stamina": 30
+	},
+	"description": "Summons Golden Rings\n\nGotta pay for all those subs somehow.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 10,
+		"aoe_shape": 1,
+		"summon": 568,
+		"summon_count": 10
+	},
+	"id": 100010,
+	"image": 531,
+	"level": 91,
+	"name": "Summon Golden Rings",
+	"range": 5,
+	"target": "tile"
+}
