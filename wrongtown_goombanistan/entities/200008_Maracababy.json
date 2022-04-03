@@ -254,6 +254,7 @@
 	},
 	"name": "Maracababy",
 	"sight": {
+		"ignore_infra_penalty": true,
 		"infravision": true,
 		"range": 5,
 		"threesixty": true
