@@ -11,15 +11,15 @@
 		"poison": 5
 	},
 	"artificial_intelligence": {
-		"allies": [],
+		"allies": [
+			5
+		],
 		"allow_production": [],
 		"behaviors": [
 			16,
 			4
 		],
-		"enemies": [
-			5
-		]
+		"enemies": []
 	},
 	"components": [
 		"actor",
