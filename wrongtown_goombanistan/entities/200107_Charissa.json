@@ -34,7 +34,7 @@
 		"tags"
 	],
 	"corpse": 640,
-	"description": "Crossovercrrissa, brother of AquaBlue, robotic Cat Lord.",
+	"description": "Charissa. Bestie.",
 	"dialogues": [
 		9008,
 		9009
@@ -104,7 +104,7 @@
 	"moveable": {
 		"speed": 1.0
 	},
-	"name": "Crossovercrrissa",
+	"name": "Charissa",
 	"sight": {
 		"ignore_infra_penalty": true,
 		"infravision": true,
