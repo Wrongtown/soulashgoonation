@@ -6,7 +6,7 @@
 		"health": 10,
 		"stamina": 30
 	},
-	"description": "Summons a Troll. This would usually be a bad idea, but this one seems nice?",
+	"description": "Summons a Troll. This would usually be a bad idea, but maybe this one is nice?",
 	"duration": 200.0,
 	"effects": {
 		"summon": 200014,
