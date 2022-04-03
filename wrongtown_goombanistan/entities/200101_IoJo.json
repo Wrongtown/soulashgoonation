@@ -67,12 +67,12 @@
 		"frames": [
 			{
 				"color": [
-					255,
-					255,
+					124,
+					245,
 					96
 				],
 				"delay": 0,
-				"index": 1505
+				"index": 1506
 			}
 		],
 		"random_frame_start": false
