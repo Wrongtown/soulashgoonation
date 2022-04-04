@@ -9,7 +9,7 @@
 	"description": "Summons a Troll. This would usually be a bad idea, but maybe this one is nice?",
 	"duration": 200.0,
 	"effects": {
-		"summon": 200014,
+		"cage": 200014,
 		"summon_count": 1
 	},
 	"id": 100004,
