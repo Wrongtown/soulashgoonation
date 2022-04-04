@@ -4,13 +4,12 @@
 	],
 	"artificial_intelligence": {
 		"allies": [
-			11
+			5,
+			35
 		],
 		"allow_production": [],
 		"behaviors": [],
-		"enemies": [
-			5
-		]
+		"enemies": []
 	},
 	"components": [
 		"ability_user",
@@ -125,6 +124,7 @@
 	},
 	"tags": [
 		9,
-		11
+		11,
+		35
 	]
 }

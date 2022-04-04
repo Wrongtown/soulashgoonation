@@ -12,7 +12,8 @@
 	},
 	"artificial_intelligence": {
 		"allies": [
-			5
+			5,
+			35
 		],
 		"allow_production": [],
 		"behaviors": [
@@ -282,7 +283,7 @@
 		]
 	},
 	"tags": [
-		4,
-		22
+		9,
+		35
 	]
 }

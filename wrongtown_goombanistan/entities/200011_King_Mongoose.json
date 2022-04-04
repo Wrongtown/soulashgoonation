@@ -14,7 +14,10 @@
 		"poison": 0
 	},
 	"artificial_intelligence": {
-		"allies": [],
+		"allies": [
+			5,
+			35
+		],
 		"allow_production": [],
 		"behaviors": [
 			16
@@ -113,6 +116,7 @@
 	},
 	"tags": [
 		2,
-		9
+		9,
+		35
 	]
 }
