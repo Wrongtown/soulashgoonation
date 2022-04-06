@@ -2,8 +2,11 @@
     "races": [
         {
             "id": 100002,
+        },
+        {
+            "id": 32,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 80% less souls to level up\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -12,13 +15,15 @@
                 "willpower": 5
             },
             "passives": [
+                {"name": "infravision", "value": true},
                 {"name": "hunger", "value": 1.8},
-                {"name": "lower_exp_needed", "value": -0.8}
+                {"name": "lower_exp_needed", "value": -0.5}
             ],
             "items": [
                 { "id": 70, "amount": 1 }, 
-                { "id": 347, "amount": 1 }, 
-                { "id": 120, "amount": 1 }
+                { "id": 347, "amount": 1 },
+                { "id": 580, "amount": 1 },
+                { "id": 307, "amount": 1 }
             ],
             "recipes": [120],
             "playable": true,
@@ -40,6 +45,26 @@
             "physical_features": "npc/description/physical.txt",
             "beard": "npc/description/beard.txt"
         }
+    ],
+    "player_glyphs": [
+        {"race_id": 0, "glyph_id": 893},
+        {"race_id": 1, "glyph_id": 892},
+        {"race_id": 4, "glyph_id": 891},
+        {"race_id": 5, "glyph_id": 894},
+        {"race_id": 6, "glyph_id": 895},
+        {"race_id": 7, "glyph_id": 896},
+        {"race_id": 8, "glyph_id": 897},
+        {"race_id": 9, "glyph_id": 898},
+        {"race_id": 10, "glyph_id": 899},
+        {"race_id": 14, "glyph_id": 890},
+        {"race_id": 23, "glyph_id": 888},
+        {"race_id": 26, "glyph_id": 889},
+        {"race_id": 27, "glyph_id": 887},
+        {"race_id": 28, "glyph_id": 886},
+        {"race_id": 29, "glyph_id": 1188},
+        {"race_id": 30, "glyph_id": 989},
+        {"race_id": 31, "glyph_id": 988},
+        {"race_id": 32, "glyph_id": 1500}
     ],
     "professions": [
         {
