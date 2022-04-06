@@ -1,9 +1,12 @@
 {
 	"ability_user": [
-		131
+		100013
 	],
 	"artificial_intelligence": {
-		"allies": [],
+		"allies": [
+			5,
+			35
+		],
 		"allow_production": [],
 		"behaviors": [],
 		"enemies": [
@@ -32,7 +35,7 @@
 		"statistics",
 		"tags"
 	],
-	"corpse": 640,
+	"corpse": 158,
 	"description": "Silver Golds, Riddle-master of Goombanistan.",
 	"dialogues": [
 		9006,
