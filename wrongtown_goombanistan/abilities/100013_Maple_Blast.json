@@ -1,0 +1,25 @@
+{
+	"animation": 200003,
+	"cast_time": 1.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"description": "Hurls an ectoplasmic maple leaf in a straight line hitting first thing it comes in contact with for ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			60,
+			90
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 1.0
+	},
+	"id": 100013,
+	"image": 625,
+	"level": 90,
+	"name": "Maple Blast",
+	"range": 6,
+	"target": "line"
+}
