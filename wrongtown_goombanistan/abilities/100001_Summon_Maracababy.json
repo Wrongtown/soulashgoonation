@@ -1,5 +1,5 @@
 {
-	"animation": 236,
+	"animation": 6,
 	"cast_time": 1.0,
 	"cooldown": 0.0,
 	"cost": {
@@ -9,9 +9,9 @@
 	"description": "Summons a Maracababy that will try to protect you in combat and chase escaping enemies.",
 	"duration": 0.0,
 	"effects": {
-		"aoe_range": 10,
+		"aoe_range": 4,
 		"aoe_shape": 1,
-		"cage": 47,
+		"cage": 200008,
 		"summon_count": 5
 	},
 	"id": 100001,
