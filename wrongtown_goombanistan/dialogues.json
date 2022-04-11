@@ -86,7 +86,7 @@
     },
     {
         "id": 9008,
-        "name": "Crossovercrrissa aware",
+        "name": "Charissa aware",
         "trigger": 1,
         "chance": 1.0,
         "monologue": [
@@ -95,7 +95,7 @@
     },
     {
         "id": 9009,
-        "name": "Crossovercrrissa fight",
+        "name": "Charissa fight",
         "trigger": 3,
         "chance": 1.0,
         "monologue": [
