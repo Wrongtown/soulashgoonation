@@ -8,7 +8,8 @@
 	"game_required": "1.0.8",
 	"icon": "goomWink.png",
 	"mods_required": [
-		"core"
+		"core",
+		"core_gfx"
 	],
 	"name": "Goombanistan",
 	"overwrite": true,
