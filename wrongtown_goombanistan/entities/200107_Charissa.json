@@ -53,7 +53,7 @@
 				"chance": 0.0,
 				"id": 370,
 				"name": "Dark Blade",
-				"stack": 0
+				"stack": 1
 			}
 		],
 		"right_hand": [
@@ -89,7 +89,7 @@
 					147
 				],
 				"delay": 0,
-				"index": 1507
+				"index": 1500
 			}
 		],
 		"random_frame_start": false

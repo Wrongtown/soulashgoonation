@@ -6,7 +6,7 @@
 		"health": 10,
 		"stamina": 30
 	},
-	"description": "Summon IoJo, brother of AquaBlue, robotic Cat Lord.",
+	"description": "Summon Io Jo, brother of AquaBlue, King of Milk.",
 	"duration": 200.0,
 	"effects": {
 		"summon": 200101,
