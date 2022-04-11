@@ -103,6 +103,25 @@
         ]
     },
     {
+    },
+    {
+        "id": 9012,
+        "name": "IoJo aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["I used to clean the heart surgery labs. It wasn't this bad though."]
+        ]
+    },
+    {
+        "id": 9013,
+        "name": "IoJo fight",
+        "trigger": 3,
+        "chance": 1.0,
+        "monologue": [
+            ["I used to clean the heart surgery labs. It wasn't this bad though."]
+        ]
+    },
         "id": 990,
         "name": "Game start monologue",
         "trigger": 7,
