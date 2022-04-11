@@ -35,8 +35,8 @@
 	"corpse": 640,
 	"description": "Io Jo, brother of AquaBlue, King of Milk.",
 	"dialogues": [
-		9006,
-		9007
+		9012,
+		9013
 	],
 	"equipment": {
 		"right_hand": [
@@ -67,9 +67,9 @@
 		"frames": [
 			{
 				"color": [
-					124,
-					245,
-					96
+					57,
+					222,
+					235
 				],
 				"delay": 0,
 				"index": 1506
