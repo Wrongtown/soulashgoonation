@@ -39,6 +39,14 @@
 		9013
 	],
 	"equipment": {
+		"backpack": [
+			{
+				"chance": 100.0,
+				"id": 821,
+				"name": "Goat Milk",
+				"stack": 69
+			}
+		],
 		"right_hand": [
 			{
 				"chance": 1.0,
@@ -67,15 +75,24 @@
 		"frames": [
 			{
 				"color": [
-					57,
-					222,
-					235
+					255,
+					255,
+					255
 				],
-				"delay": 0,
-				"index": 1506
+				"delay": 500,
+				"index": 1532
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 500,
+				"index": 1533
 			}
 		],
-		"random_frame_start": false
+		"random_frame_start": true
 	},
 	"health": 225,
 	"id": 200101,
