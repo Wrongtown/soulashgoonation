@@ -16,7 +16,7 @@
 	},
 	"id": 100002,
 	"image": 280,
-	"level": 2,
+	"level": 90,
 	"name": "Summon Mongoose",
 	"range": 10,
 	"target": "tile"

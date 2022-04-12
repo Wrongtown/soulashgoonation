@@ -1,13 +1,13 @@
 {
 	"animation": 236,
 	"cast_time": 1.0,
-	"cooldown": 200.0,
+	"cooldown": 50.0,
 	"cost": {
-		"health": 10,
-		"stamina": 30
+		"health": 0,
+		"stamina": 5
 	},
 	"description": "Summon Io Jo, brother of AquaBlue, King of Milk.",
-	"duration": 200.0,
+	"duration": 50.0,
 	"effects": {
 		"summon": 200101,
 		"summon_count": 1
