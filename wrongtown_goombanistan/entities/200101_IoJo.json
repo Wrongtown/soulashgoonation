@@ -39,6 +39,14 @@
 		9013
 	],
 	"equipment": {
+		"backpack": [
+			{
+				"chance": 100.0,
+				"id": 821,
+				"name": "Goat Milk",
+				"stack": 69
+			}
+		],
 		"right_hand": [
 			{
 				"chance": 1.0,
