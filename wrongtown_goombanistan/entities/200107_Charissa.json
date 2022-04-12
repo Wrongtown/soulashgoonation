@@ -84,12 +84,12 @@
 		"frames": [
 			{
 				"color": [
-					220,
-					62,
-					147
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 1500
+				"index": 471
 			}
 		],
 		"random_frame_start": false
@@ -135,6 +135,7 @@
 	},
 	"tags": [
 		9,
-		1
+		1,
+		35
 	]
 }

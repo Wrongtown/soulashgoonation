@@ -843,12 +843,12 @@
         {
             "id": 32,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\nHigh chance of crafting magic items & artefacts.\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
                 "dexterity": 5,
-                "intelligence": 5,
+                "intelligence": 90,
                 "willpower": 5
             },
             "passives": [
