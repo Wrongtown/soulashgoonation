@@ -1,0 +1,27 @@
+{
+	"animation": 200004,
+	"cast_time": 1.5,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 1,
+		"stamina": 10
+	},
+	"description": "Drop fat stacks of cash from the sky. It will deal ::damage ::damage_type damage to everyone in the area.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 4,
+		"aoe_shape": 1,
+		"damage": [
+			5,
+			15
+		],
+		"damage_type": "true",
+		"damage_weapon": 1.0
+	},
+	"id": 100015,
+	"image": 50,
+	"level": 90,
+	"name": "Money Shower",
+	"range": 15,
+	"target": "health"
+}

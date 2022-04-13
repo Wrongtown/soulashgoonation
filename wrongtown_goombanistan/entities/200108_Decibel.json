@@ -4,11 +4,13 @@
 		123,
 		47,
 		112,
-		100001,
-		100010
+		100014
 	],
 	"artificial_intelligence": {
-		"allies": [],
+		"allies": [		
+			5,
+			35
+		],
 		"allow_production": [],
 		"behaviors": [],
 		"enemies": [

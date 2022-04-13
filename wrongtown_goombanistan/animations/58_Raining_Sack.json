@@ -1,0 +1,91 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 8,
+		"duration": 1.0,
+		"power": 10,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": 58,
+	"ignore_roof": true,
+	"name": "Raining Sack",
+	"particles": [
+		{
+			"color": [
+				[
+					244,
+					255,
+					255,
+					255
+				]
+			],
+			"elevation": 500,
+			"elevation_drop": true,
+			"flags": 32768,
+			"life": 500.0,
+			"on_impact": 164,
+			"pulse_background": 300.0,
+			"tile_id": 993
+		},
+		{
+			"color": [
+				[
+					40,
+					41,
+					44,
+					250
+				]
+			],
+			"flags": 0,
+			"life": 200.0,
+			"tile_id": 993
+		},
+		{
+			"color": [
+				[
+					28,
+					41,
+					41,
+					250
+				]
+			],
+			"delay": 200.0,
+			"flags": 8,
+			"life": 150.0,
+			"tile_id": 993
+		},
+		{
+			"color": [
+				[
+					14,
+					26,
+					10,
+					250
+				]
+			],
+			"delay": 300.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 993
+		},
+		{
+			"color": [
+				[
+					20,
+					20,
+					20,
+					250
+				]
+			],
+			"delay": 400.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 993
+		}
+	],
+	"sound": {
+		"id": -1,
+		"volume": 100
+	}
+}
