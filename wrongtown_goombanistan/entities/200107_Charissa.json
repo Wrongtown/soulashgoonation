@@ -4,7 +4,10 @@
 		84
 	],
 	"artificial_intelligence": {
-		"allies": [],
+		"allies": [			
+			5,
+			35
+		],
 		"allow_production": [],
 		"behaviors": [],
 		"enemies": [
