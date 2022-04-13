@@ -1,0 +1,25 @@
+{
+	"animation": 58,
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 1.0,
+		"power": 6,
+		"type": 1
+	},
+	"chain_particles": false,
+	"explosion_range": 4,
+	"id": 200004,
+	"ignore_roof": false,
+	"name": "Money Shower",
+	"random_delay": [
+		0,
+		1000
+	],
+	"random_target": true,
+	"repeat": 10,
+	"sound": {
+		"id": -1,
+		"volume": 100
+	}
+}
