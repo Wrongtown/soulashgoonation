@@ -257,7 +257,7 @@
 	"sight": {
 		"ignore_infra_penalty": true,
 		"infravision": true,
-		"range": 5,
+		"range": 10,
 		"threesixty": true
 	},
 	"statistics": {

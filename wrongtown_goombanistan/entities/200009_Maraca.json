@@ -7,6 +7,7 @@
 		"minimap_pixel",
 		"name",
 		"position_2d",
+		"tool",
 		"value",
 		"weapon",
 		"weight"
@@ -16,12 +17,15 @@
 			{
 				"amount": 2,
 				"id": 62
+			},
+			{
+				"amount": 1,
+				"id": 146
 			}
 		],
 		"time": 30,
 		"tools": [
-			13,
-			14
+			13
 		]
 	},
 	"description": "Shake-a-shake-shake! \n\nThe iron shot in this innocuous-seeming instrument makes every hit a winner.",
@@ -42,7 +46,7 @@
 	},
 	"id": 200009,
 	"item": {
-		"image": 438,
+		"image": 161,
 		"type": 13
 	},
 	"minimap_pixel": [
@@ -51,6 +55,28 @@
 		84
 	],
 	"name": "Maraca",
+	"tool": [
+		{
+			"id": 6,
+			"quality": 100
+		},
+		{
+			"id": 9,
+			"quality": 100
+		},
+		{
+			"id": 16,
+			"quality": 100
+		},
+		{
+			"id": 17,
+			"quality": 100
+		},
+		{
+			"id": 8,
+			"quality": 100
+		}
+	],
 	"value": 200,
 	"weapon": {
 		"attack_speed": 0.5,
@@ -59,6 +85,51 @@
 				"dmg_max": 9,
 				"dmg_min": 6,
 				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "fire"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "frost"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "electricity"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "death"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "poison"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "acid"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "holy"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "none"
+			},
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "true"
 			}
 		],
 		"hands": 1,
@@ -67,5 +138,5 @@
 		"range": 1,
 		"type": 2
 	},
-	"weight": 1.5
+	"weight": 0.5
 }
