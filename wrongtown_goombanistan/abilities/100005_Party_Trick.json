@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 5
 	},
-	"description": "You've studied under the tutelage of Dictator For Life Goombanna, you have honed your voice until it could be used as a weapon. \n\nLoudly gobble like a turkey at your enemy dealing ::damage ::damage_type damage, with a chance to stop them in their tracks.",
+	"description": "Studying under the tutelage of Dictator For Life Goombanna, you have honed your voice until it can be used as a weapon. \n\nLoudly gobble like a turkey at your enemy dealing ::damage ::damage_type damage, with a chance to stop them in their tracks.",
 	"duration": 5.0,
 	"effects": {
 		"damage": [

@@ -39,14 +39,14 @@
 					255
 				],
 				"delay": 0,
-				"index": 329
+				"index": 1535
 			}
 		],
 		"random_frame_start": false
 	},
 	"id": 200009,
 	"item": {
-		"image": 161,
+		"image": 442,
 		"type": 13
 	},
 	"minimap_pixel": [
@@ -75,10 +75,39 @@
 		{
 			"id": 8,
 			"quality": 100
+		},
+		{
+			"id": 2,
+			"quality": 100
+		},
+		{
+			"id": 3,
+			"quality": 100
+		},
+		{
+			"id": 11,
+			"quality": 100
+		},
+		{
+			"id": 12,
+			"quality": 100
+		},
+		{
+			"id": 13,
+			"quality": 100
+		},
+		{
+			"id": 1,
+			"quality": 100
+		},
+		{
+			"id": 14,
+			"quality": 100
 		}
 	],
 	"value": 200,
 	"weapon": {
+		"attack_animation": 200005,
 		"attack_speed": 0.5,
 		"damage": [
 			{
@@ -124,7 +153,7 @@
 			{
 				"dmg_max": 9,
 				"dmg_min": 6,
-				"dmg_type": "none"
+				"dmg_type": "physical"
 			},
 			{
 				"dmg_max": 9,
