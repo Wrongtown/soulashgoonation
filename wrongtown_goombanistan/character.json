@@ -841,7 +841,7 @@
             "physical_features": "npc/description/physical.txt"
         },
         {
-            "id": 32,
+            "id": 99,
             "name": "Goombanistanian",
             "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\nHigh chance of crafting magic items & artefacts.\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
             "statistics": {
@@ -998,7 +998,7 @@
             "image": 20
         },
         {
-            "id": 100002,
+            "id": 100099,
             "name": "Goombamancer",
             "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
