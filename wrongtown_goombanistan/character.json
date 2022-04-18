@@ -890,8 +890,9 @@
                 {"name": "lower_exp_needed", "value": -0.5}
             ],
             "items": [
-                { "id": 70, "amount": 1 }, 
+                { "id": 326, "amount": 1 },
                 { "id": 347, "amount": 1 },
+                { "id": 70, "amount": 1 }, 
                 { "id": 580, "amount": 1 },
                 { "id": 307, "amount": 1 }
             ],
@@ -935,7 +936,7 @@
         {"race_id": 30, "glyph_id": 989},
         {"race_id": 31, "glyph_id": 988},
         {"race_id": 32, "glyph_id": 1168},
-        {"race_id": 32, "glyph_id": 1500}
+        {"race_id": 99, "glyph_id": 1500}
     ],
     "professions": [
         {
@@ -1036,9 +1037,6 @@
             "name": "Goombamancer",
             "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
-                { "id": 180, "amount": 1 },
-                { "id": 55, "amount": 1 },
-                { "id": 326, "amount": 12},
                 { "id": 392, "amount": 1},
                 { "id": 669, "amount": 1},
                 { "id": 200109, "amount": 1},
