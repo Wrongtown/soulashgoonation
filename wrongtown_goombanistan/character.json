@@ -935,7 +935,7 @@
         {"race_id": 30, "glyph_id": 989},
         {"race_id": 31, "glyph_id": 988},
         {"race_id": 32, "glyph_id": 1168},
-        {"race_id": 32, "glyph_id": 1500}
+        {"race_id": 99, "glyph_id": 1500}
     ],
     "professions": [
         {
