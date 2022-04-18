@@ -1005,8 +1005,12 @@
                 { "id": 180, "amount": 1 },
                 { "id": 55, "amount": 1 },
                 { "id": 326, "amount": 12},
-                { "id": 579, "amount": 1}
+                { "id": 392, "amount": 1},
+                { "id": 669, "amount": 1},
+                { "id": 200109, "amount": 1},
+                { "id": 200110, "amount": 1}
                 ],
+                "recipes": [],
                 "image": 19  
         }          
     ],
