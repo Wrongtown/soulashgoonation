@@ -842,6 +842,39 @@
         },
         {
             "id": 32,
+            "name": "Mushman",
+            "description": "[color=155,155,155,255]Mushmen keep order in the forest. They spread spores and create mushrooms everywhere. Others that they encounter get turned to different types of mushrooms. They are a rare race that uses the earth underneath them to move. Large mycelium networks allow them to travel from one forest to the next quickly.[/color]\n\nStrength +2, Intelligence +2\nForest Walk: +20% Movement speed on short, medium, or long grass.\n\n[color=130,163,175,255]Items:[/color] 4 Mushrooms\n[color=130,163,175,255]Recipes:[/color] None",
+            "statistics": {
+                "strength": 2,
+                "intelligence": 2
+            },
+            "passives": [
+                {"name": "move_speed_on_grass", "value": -0.2}
+            ],
+            "items": [
+                { "id": 343, "amount": 4 }
+            ],
+            "recipes": [],
+            "playable": true,
+            "tags": [ 9, 35 ],
+            "image": 26,
+            "names": {
+                "male": "npc/names/mushman.txt",
+                "female": "npc/names/mushman.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 99,
             "name": "Goombanistanian",
             "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\nHigh chance of crafting magic items & artefacts.\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
             "statistics": {
@@ -901,6 +934,7 @@
         {"race_id": 29, "glyph_id": 1188},
         {"race_id": 30, "glyph_id": 989},
         {"race_id": 31, "glyph_id": 988},
+        {"race_id": 32, "glyph_id": 1168},
         {"race_id": 32, "glyph_id": 1500}
     ],
     "professions": [
@@ -998,15 +1032,19 @@
             "image": 20
         },
         {
-            "id": 100002,
+            "id": 100099,
             "name": "Goombamancer",
             "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
                 { "id": 180, "amount": 1 },
                 { "id": 55, "amount": 1 },
                 { "id": 326, "amount": 12},
-                { "id": 579, "amount": 1}
+                { "id": 392, "amount": 1},
+                { "id": 669, "amount": 1},
+                { "id": 200109, "amount": 1},
+                { "id": 200110, "amount": 1}
                 ],
+                "recipes": [],
                 "image": 19  
         }          
     ],
