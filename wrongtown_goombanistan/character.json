@@ -1039,6 +1039,7 @@
             "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
                 { "id": 392, "amount": 1},
+                { "id": 396, "amount": 1},
                 { "id": 669, "amount": 1},
                 { "id": 200109, "amount": 1},
                 { "id": 200110, "amount": 1}
