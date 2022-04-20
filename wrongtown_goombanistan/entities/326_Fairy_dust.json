@@ -1,0 +1,46 @@
+{
+	"components": [
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"tool",
+		"value",
+		"weight"
+	],
+	"description": "Remains of a fairy or wisp. Its magical properties make it useful for crafting and completing rituals.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					100,
+					109,
+					155
+				],
+				"delay": 0,
+				"index": 270
+			}
+		]
+	},
+	"id": 326,
+	"item": {
+		"image": 126,
+		"type": 16
+	},
+	"minimap_pixel": [
+		100,
+		109,
+		155
+	],
+	"name": "Fairy Dust",
+	"tool": [
+		{
+			"id": 19,
+			"quality": 100
+		}
+	],
+	"value": 100,
+	"weight": 0.10000000149011612
+}
