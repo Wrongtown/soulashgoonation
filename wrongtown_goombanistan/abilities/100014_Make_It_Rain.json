@@ -1,0 +1,29 @@
+{
+	"animation": 200004,
+	"cast_time": 1.0,
+	"cooldown": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 1.0,
+	"effects": {
+		"aoe_range": 4,
+		"aoe_shape": 1,
+		"damage": [
+			10,
+			10
+		],
+		"damage_type": "true",
+		"knockback": 2,
+		"light_source": 5
+	},
+	"id": 100014,
+	"image": 50,
+	"level": 99,
+	"min_range": 1,
+	"name": "Make It Rain",
+	"range": 5,
+	"target": "aoe_self"
+}
