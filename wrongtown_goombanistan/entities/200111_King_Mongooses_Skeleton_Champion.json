@@ -1,0 +1,147 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 50,
+		"electricity": 0,
+		"fire": -5,
+		"frost": 0,
+		"holy": -20,
+		"parry": 0,
+		"physical": 3,
+		"poison": 5
+	},
+	"artificial_intelligence": {
+		"allies": [
+			35,
+			5,
+			4
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"temporary"
+	],
+	"corpse": 55,
+	"description": "Summoned by the spooky Mongoose King.",
+	"equipment": {
+		"head_armor": [
+			{
+				"chance": 1.0,
+				"id": 328,
+				"name": "Rusty Helmet",
+				"stack": 1
+			}
+		],
+		"left_hand": [
+			{
+				"chance": 1.0,
+				"id": 78,
+				"name": "Sword",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": 78,
+				"name": "Sword",
+				"stack": 1
+			}
+		],
+		"torso_armor": [
+			{
+				"chance": 1.0,
+				"id": 329,
+				"name": "Rusty Chainmail",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 23,
+		"level": 3
+	},
+	"fighter": {
+		"attackNames": [
+			"Bone"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					89,
+					54,
+					114
+				],
+				"delay": 0,
+				"index": 460
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 100,
+	"id": 200111,
+	"minimap_pixel": [
+		208,
+		204,
+		187
+	],
+	"moveable": {
+		"speed": 1.100000023841858
+	},
+	"name": "King Mongoose's Skeleton Champion",
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 9,
+		"threesixty": false
+	},
+	"statistics": {
+		"dexterity": [
+			15,
+			18
+		],
+		"endurance": [
+			17,
+			23
+		],
+		"intelligence": [
+			8,
+			11
+		],
+		"strength": [
+			17,
+			22
+		],
+		"willpower": [
+			8,
+			11
+		]
+	},
+	"tags": [
+		4,
+		20
+	],
+	"temporary": 80.0
+}
