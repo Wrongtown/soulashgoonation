@@ -4189,7 +4189,7 @@
         "trigger": 1,
         "chance": 1.0,
         "monologue": [
-            ["Choo-choo motherfuckers!"],
+            ["Choo-choo all aboard the hype train!"],
             ["You think the hype is your ally, but you merely adopted the hype."]
         ]
     },
@@ -4199,15 +4199,7 @@
         "trigger": 3,
         "chance": 1.0,
         "monologue": [
-            ["Have you ever had a dream"],
-            ["that, that, um, "],
-            ["that you had, "],
-            ["uh, that you had to, "],
-            ["you could, you do, you wit, you wa, "],
-            ["you could do so, "],
-            ["you do you could, "],
-            ["you want, "],
-            ["you wanted him to do you so much you could do anything?"]
+            ["Have you ever had a dream, that, that, um, that you had, uh, that you had to, you could, you do, you wit, you wa, you could do so, you do you could, you want, you wanted him to do you so much you could do anything?"]
         ]
     },
     {
