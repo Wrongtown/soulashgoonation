@@ -4085,6 +4085,7 @@
         "trigger": 1,
         "chance": 1.0,
         "monologue": [
+            ["[color=150,150,150,255]*says something spooky*[/color]"],
             ["[color=150,150,150,255]*glances about alertly*[/color]"],
             ["[color=150,150,150,255]*appears to be thinking*[/color]"]
         ]
@@ -4095,6 +4096,7 @@
         "trigger": 3,
         "chance": 1.0,
         "monologue": [
+            ["[color=150,150,150,255]*says something spooky*[/color]"],
             ["[color=150,150,150,255]*bares teeth*[/color]"],
             ["[color=150,150,150,255]*glances about confidently*[/color]"],
             ["[color=150,150,150,255]*adopts a defensive pose*[/color]"]
