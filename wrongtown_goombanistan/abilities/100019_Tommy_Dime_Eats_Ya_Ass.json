@@ -1,0 +1,25 @@
+{
+	"animation": 200007,
+	"cast_time": 1.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 1
+	},
+	"description": "Melee attack that deals ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			50,
+			100
+		],
+		"damage_type": "poison",
+		"damage_weapon": 1.0
+	},
+	"id": 100019,
+	"image": 79,
+	"level": 99,
+	"name": "Tommy Dime Eats Ya Ass",
+	"range": 1,
+	"target": "health"
+}

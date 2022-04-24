@@ -4223,6 +4223,26 @@
         ]
     },
     {
+        "id": 9014,
+        "name": "TommyDime aware",
+        "trigger": 1,
+        "chance": 1.0,
+        "monologue": [
+            ["Can I get a shout-out for Goombanna?"],
+            ["Y'all if you're not already following Anna you're missing out."]
+        ]
+    },
+    {
+        "id": 9015,
+        "name": "TommyDime fight",
+        "trigger": 3,
+        "chance": 1.0,
+        "monologue": [
+            ["It's Dime Time!"],
+            ["Yo dude! Imma eat ya ass!"]
+        ]
+    },
+    {
         "id": 990,
         "name": "Game start monologue",
         "trigger": 7,

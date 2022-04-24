@@ -5,6 +5,21 @@
         "id": 999,
         "name": "Turkey gobble",
         "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TurkeyGobble.ogg"
+      },
+      {
+        "id": 1000,
+        "name": "TommyDimeEatYaAss",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TommyDimeEatYaAss.ogg"
+      },
+      {
+        "id": 1001,
+        "name": "TommyDimeHereForYourBirthday",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TommyDimeHereForYourBirthday.ogg"
+      },
+      {
+        "id": 1002,
+        "name": "TommyDimeWhat",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TommyDimeWhat.ogg"
       }
     ]
   },
