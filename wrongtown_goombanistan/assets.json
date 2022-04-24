@@ -20,6 +20,11 @@
         "id": 1002,
         "name": "TommyDimeWhat",
         "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/TommyDimeWhat.ogg"
+      },
+      {
+        "id": 1003,
+        "name": "SummonMaracaBabies",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/SummonMaracaBabies.ogg"
       }
     ]
   },
