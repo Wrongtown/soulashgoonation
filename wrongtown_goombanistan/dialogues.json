@@ -4210,7 +4210,10 @@
         "trigger": 1,
         "chance": 1.0,
         "monologue": [
-            ["I used to clean the heart surgery labs. It wasn't this bad though."]
+            ["I used to clean the heart surgery labs. It wasn't this bad though."],
+            ["Rate bread?"],
+            ["Alfredo or marinara?"],
+            ["Top 10 flavors of water"]
         ]
     },
     {
@@ -4219,7 +4222,11 @@
         "trigger": 3,
         "chance": 1.0,
         "monologue": [
-            ["I used to clean the heart surgery labs. It wasn't this bad though."]
+            ["I used to clean the heart surgery labs. It wasn't this bad though."],
+            ["Mittens, have you seen Bethany? She WHAT!?"],
+            ["Bethany, have you seen Mittens? They were just here... I'm sure they're fine..."],
+            ["Oh no."],
+            [color=150,150,150,255]*giggles*[/color]
         ]
     },
     {
