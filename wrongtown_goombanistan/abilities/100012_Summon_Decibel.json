@@ -17,6 +17,6 @@
 	"level": 8,
 	"name": "Summon Decibel",
 	"profession": 100099,
-	"range": 5,
+	"range": 10,
 	"target": "tile"
 }

@@ -17,6 +17,6 @@
 	"level": 5,
 	"name": "Summon Silver Golds",
 	"profession": 100099,
-	"range": 5,
+	"range": 10,
 	"target": "tile"
 }

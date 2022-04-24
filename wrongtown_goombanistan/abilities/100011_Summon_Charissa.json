@@ -17,6 +17,6 @@
 	"level": 7,
 	"name": "Summon Charissa",
 	"profession": 100099,
-	"range": 5,
+	"range": 10,
 	"target": "tile"
 }
