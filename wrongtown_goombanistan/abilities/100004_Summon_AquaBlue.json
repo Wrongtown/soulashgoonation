@@ -17,6 +17,6 @@
 	"level": 3,
 	"name": "Summon AquaBlue",
 	"profession": 100099,
-	"range": 5,
+	"range": 10,
 	"target": "tile"
 }

@@ -1,0 +1,128 @@
+{
+	"components": [
+		"glyph",
+		"item",
+		"liquid_source",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"producer",
+		"value",
+		"weight"
+	],
+	"description": "A mortal's corpse, completely absent of life.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					147,
+					128,
+					104
+				],
+				"delay": 0,
+				"index": 213
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": 25,
+	"item": {
+		"image": 2,
+		"type": 18
+	},
+	"liquid_source": {
+		"limit": 100,
+		"type": 4
+	},
+	"minimap_pixel": [
+		147,
+		128,
+		104
+	],
+	"name": "Corpse",
+	"producer": {
+		"products": {
+			"13": [
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 55,
+					"percent_chance": 100
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 952,
+					"percent_chance": 5
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 959,
+					"percent_chance": 10
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 958,
+					"percent_chance": 10
+				}
+			],
+			"2": [
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 55,
+					"percent_chance": 100
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 958,
+					"percent_chance": 5
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 959,
+					"percent_chance": 5
+				},
+				{
+					"amount": [
+						1,
+						1
+					],
+					"id": 952,
+					"percent_chance": 3
+				}
+			],
+			"3": [
+				{
+					"amount": [
+						4,
+						4
+					],
+					"id": 162,
+					"percent_chance": 100
+				}
+			]
+		},
+		"time": 0
+	},
+	"value": 0,
+	"weight": 60.0
+}
