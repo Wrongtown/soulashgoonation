@@ -1,0 +1,44 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 10,
+		"duration": 1.0,
+		"power": 10,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": 200006,
+	"ignore_roof": true,
+	"name": "Summon TommyDime",
+	"particles": [
+		{
+			"background": [
+				[
+					0,
+					0,
+					0,
+					0
+				]
+			],
+			"color": [
+				[
+					203,
+					0,
+					0,
+					255
+				]
+			],
+			"elevation": 60,
+			"flags": 8,
+			"life": 2000.0,
+			"on_impact": 60,
+			"spin": 360.0,
+			"tile_id": 994,
+			"velocity": 30.0
+		}
+	],
+	"sound": {
+		"id": 1001,
+		"volume": 100
+	}
+}

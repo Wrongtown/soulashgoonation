@@ -1,0 +1,22 @@
+{
+	"animation": 200006,
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 5,
+		"stamina": 10
+	},
+	"description": "Summon Tommy Dime. He's a lover AND a fighter.",
+	"duration": 50.0,
+	"effects": {
+		"summon": 200112,
+		"summon_count": 1
+	},
+	"id": 100018,
+	"image": 223,
+	"level": 9,
+	"name": "Summon Tommy Dime",
+	"profession": 100099,
+	"range": 10,
+	"target": "tile"
+}

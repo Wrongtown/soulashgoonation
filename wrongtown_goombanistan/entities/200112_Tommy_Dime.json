@@ -1,0 +1,135 @@
+{
+	"ability_user": [
+		69,
+		100016,
+		100019
+	],
+	"artificial_intelligence": {
+		"allies": [
+			5,
+			35
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": [
+			4,
+			9
+		]
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": 25,
+	"description": "Pro-Streamer and Ass-Eater.",
+	"dialogues": [],
+	"equipment": {
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": 967,
+				"name": "Spectral Sword",
+				"stack": 1
+			}
+		],
+		"ring1": [
+			{
+				"chance": 1.0,
+				"id": 565,
+				"name": "Mastery Ring",
+				"stack": 1
+			}
+		],
+		"torso_armor": [
+			{
+				"chance": 1.0,
+				"id": 397,
+				"name": "Heavy Armor",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 100,
+		"level": 10
+	},
+	"fighter": {
+		"attackNames": null
+	},
+	"gender": "male",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 1510
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 225,
+	"id": 200112,
+	"minimap_pixel": [
+		13,
+		18,
+		57
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Tommy Dime",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 10,
+		"threesixty": true
+	},
+	"statistics": {
+		"dexterity": [
+			16,
+			20
+		],
+		"endurance": [
+			69,
+			69
+		],
+		"intelligence": [
+			5,
+			10
+		],
+		"strength": [
+			54,
+			57
+		],
+		"willpower": [
+			69,
+			69
+		]
+	},
+	"tags": [
+		9,
+		1,
+		35
+	]
+}
