@@ -71,7 +71,10 @@
 		"level": 10
 	},
 	"fighter": {
-		"attackNames": null
+		"attackNames": [
+			"mighty fists",
+			"sweet kicks"
+		]
 	},
 	"gender": "male",
 	"glyph": {
@@ -83,7 +86,7 @@
 					255
 				],
 				"delay": 0,
-				"index": 1510
+				"index": 1509
 			}
 		],
 		"random_frame_start": false
