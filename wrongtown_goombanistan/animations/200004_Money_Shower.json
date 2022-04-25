@@ -19,7 +19,7 @@
 	"random_target": true,
 	"repeat": 89,
 	"sound": {
-		"id": -1,
+		"id": 1005,
 		"volume": 100
 	}
 }
