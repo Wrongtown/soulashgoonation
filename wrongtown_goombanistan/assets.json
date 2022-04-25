@@ -25,6 +25,16 @@
         "id": 1003,
         "name": "SummonMaracaBabies",
         "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/SummonMaracaBabies.ogg"
+      },
+      {
+        "id": 1004,
+        "name": "DecibelTimeForSomeChaos",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/DecibelTimeForSomeChaos.ogg"
+      },
+      {
+        "id": 1005,
+        "name": "DecibelGiftSubs",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/DecibelGiftSubs.ogg"
       }
     ]
   },

@@ -1,0 +1,80 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 6,
+		"duration": 0.4000000059604645,
+		"power": 5,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": 200009,
+	"ignore_roof": true,
+	"name": "Time for some CHAOS!",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					116
+				]
+			],
+			"explosion_range": 6,
+			"flags": 2459,
+			"pulse_background": 300.0,
+			"tile_id": 830,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					116
+				]
+			],
+			"explosion_range": 6,
+			"flags": 2459,
+			"pulse_background": 300.0,
+			"tile_id": 831,
+			"velocity": 60.0
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					116
+				]
+			],
+			"explosion_range": 6,
+			"flags": 2459,
+			"pulse_background": 300.0,
+			"tile_id": 847,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					255,
+					118,
+					89,
+					255
+				]
+			],
+			"delay": 1000.0,
+			"explosion_range": 6,
+			"flags": 2459,
+			"pulse_background": 300.0,
+			"tile_id": 830,
+			"velocity": 50.0
+		}
+	],
+	"sound": {
+		"id": 1004,
+		"volume": 100
+	}
+}
