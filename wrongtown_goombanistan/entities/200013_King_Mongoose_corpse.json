@@ -3,12 +3,12 @@
 		"glyph",
 		"item",
 		"liquid_source",
+		"minimap_pixel",
 		"name",
 		"position_2d",
 		"producer",
 		"value",
-		"weight",
-		"minimap_pixel"
+		"weight"
 	],
 	"description": "The twisted body of a mongoose monarch.",
 	"glyph": {
@@ -64,8 +64,8 @@
 			"3": [
 				{
 					"amount": [
-						2,
-						2
+						5,
+						10
 					],
 					"id": 162,
 					"percent_chance": 100
