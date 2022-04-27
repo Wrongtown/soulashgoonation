@@ -1,0 +1,22 @@
+{
+	"animation": 140,
+	"cast_time": 1.0,
+	"cooldown": 50.0,
+	"cost": {
+		"health": 5,
+		"stamina": 10
+	},
+	"description": "Anime Dead. Not the same as Animate Dead. Sorta.",
+	"duration": 50.0,
+	"effects": {
+		"summon": 200113,
+		"summon_count": 2
+	},
+	"id": 100020,
+	"image": 607,
+	"level": 99,
+	"name": "Anime Dead",
+	"profession": 100099,
+	"range": 10,
+	"target": "tile"
+}
