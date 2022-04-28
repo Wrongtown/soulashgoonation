@@ -7,7 +7,7 @@
 	],
 	"armor": {
 		"acid": 0,
-		"death": 0,
+		"death": 100,
 		"electricity": 0,
 		"fire": 1,
 		"frost": 0,
