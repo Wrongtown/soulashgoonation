@@ -1,5 +1,5 @@
 {
-	"animation": 140,
+	"animation": 109,
 	"cast_time": 1.0,
 	"cooldown": 50.0,
 	"cost": {
@@ -14,8 +14,8 @@
 	},
 	"id": 100020,
 	"image": 607,
-	"level": 99,
-	"name": "Anime Dead",
+	"level": 1,
+	"name": "Summon Anime Dead",
 	"profession": 100099,
 	"range": 10,
 	"target": "tile"

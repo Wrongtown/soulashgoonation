@@ -7,7 +7,7 @@
 	],
 	"armor": {
 		"acid": 0,
-		"death": 0,
+		"death": 100,
 		"electricity": 0,
 		"fire": 1,
 		"frost": 0,
@@ -68,9 +68,9 @@
 		"frames": [
 			{
 				"color": [
-					145,
-					98,
-					56
+					193,
+					168,
+					116
 				],
 				"delay": 0,
 				"index": 1503

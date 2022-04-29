@@ -1,0 +1,26 @@
+{
+	"animation": 111,
+	"cast_time": 1.0,
+	"cooldown": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Hurls a magical tiara, dealing ::damage ::damage_type damage to everyone in line.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			15,
+			80
+		],
+		"damage_type": "death",
+		"damage_weapon": 1.2000000476837158,
+		"pierce": 1
+	},
+	"id": 100021,
+	"image": 166,
+	"level": 99,
+	"name": "Doom Tiara Magic",
+	"range": 10,
+	"target": "line"
+}
