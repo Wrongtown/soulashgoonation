@@ -35,6 +35,21 @@
         "id": 1005,
         "name": "DecibelGiftSubs",
         "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/DecibelGiftSubs.ogg"
+      },
+      {
+        "id": 1006,
+        "name": "CharissaKazooBestFriendTime",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/CharissaKazooBestFriendTime.ogg"
+      },
+      {
+        "id": 1007,
+        "name": "CharissaSonicPower",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/CharissaSonicPower.ogg"
+      },
+      {
+        "id": 1008,
+        "name": "CharissaToddlerWarriors",
+        "file": "data/mods/wrongtown_goombanistan/assets/sfx/sounds/abilities/CharissaToddlerWarriors.ogg"
       }
     ]
   },
