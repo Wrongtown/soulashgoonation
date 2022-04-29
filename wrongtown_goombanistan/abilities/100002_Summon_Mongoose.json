@@ -1,7 +1,7 @@
 {
 	"animation": 205,
 	"cast_time": 1.0,
-	"cooldown": 2.0,
+	"cooldown": 10.0,
 	"cost": {
 		"health": 0,
 		"stamina": 1
