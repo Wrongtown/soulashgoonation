@@ -1,0 +1,23 @@
+{
+	"animation": 18,
+	"cast_time": 1.0,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 1,
+		"stamina": 10
+	},
+	"description": "Summons Toddler Warriors. No guarantee they will behave in a way you desire.",
+	"duration": 200.0,
+	"effects": {
+		"aoe_range": 10,
+		"aoe_shape": 1,
+		"summon": 47,
+		"summon_count": 10
+	},
+	"id": 100023,
+	"image": 443,
+	"level": 99,
+	"name": "Summon Toddler Warriors",
+	"range": 5,
+	"target": "tile"
+}
