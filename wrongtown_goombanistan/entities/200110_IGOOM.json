@@ -1,0 +1,141 @@
+{
+	"components": [
+		"craftable",
+		"durability",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"resurrector",
+		"resting_place",
+		"tags",
+		"tool",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"resources": [
+			{
+				"amount": 1,
+				"id": 556
+			},
+			{
+				"amount": 1,
+				"id": 952
+			},
+			{
+				"amount": 1,
+				"id": 568
+			}
+		],
+		"time": 90,
+		"tools": []
+	},
+	"description": "The famed Invisible Goombanistanian Operational Omni-Machine.",
+	"durability": 9001,
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					0,
+					0,
+					0
+				],
+				"delay": 0,
+				"index": 1559
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": 200110,
+	"item": {
+		"image": 459,
+		"type": 12
+	},
+	"minimap_pixel": [
+		0,
+		0,
+		0
+	],
+	"name": "I.G.O.O.M.",
+	"resting_place": 150,
+	"resurrector": {
+		"health_restore": 0.0
+	},
+	"tags": [
+		35
+	],
+	"tool": [
+		{
+			"id": 6,
+			"quality": 100
+		},
+		{
+			"id": 9,
+			"quality": 100
+		},
+		{
+			"id": 16,
+			"quality": 100
+		},
+		{
+			"id": 17,
+			"quality": 100
+		},
+		{
+			"id": 8,
+			"quality": 100
+		},
+		{
+			"id": 2,
+			"quality": 100
+		},
+		{
+			"id": 3,
+			"quality": 100
+		},
+		{
+			"id": 11,
+			"quality": 100
+		},
+		{
+			"id": 12,
+			"quality": 100
+		},
+		{
+			"id": 13,
+			"quality": 100
+		},
+		{
+			"id": 1,
+			"quality": 100
+		},
+		{
+			"id": 14,
+			"quality": 100
+		},
+		{
+			"id": 10,
+			"quality": 100
+		},
+		{
+			"id": 18,
+			"quality": 100
+		},
+		{
+			"id": 7,
+			"quality": 100
+		},
+		{
+			"id": 5,
+			"quality": 100
+		},
+		{
+			"id": 15,
+			"quality": 100
+		}
+	],
+	"value": 200,
+	"weight": 0.20000000298023224
+}
