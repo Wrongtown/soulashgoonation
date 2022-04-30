@@ -876,7 +876,7 @@
         {
             "id": 99,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Items:[/color] Fairy Dust, Bandage, Knife, Corset, Leather Pants, High Boots\n[color=130,163,175,255]Recipes:[/color] Fishing Rod, Goatskin",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Items:[/color] Fairy Dust, Bandage, Knife, Corset, Leather Pants, High Boots\n[color=130,163,175,255]Bonus Recipes:[/color] Fishing Rod, Corset, Goatskin, Bedroll, Gamer Rope",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -898,7 +898,7 @@
                 { "id": 580, "amount": 1 },
                 { "id": 307, "amount": 1 }
             ],
-            "recipes": [120, 346],
+            "recipes": [120, 346, 580, 787, 200109],
             "playable": true,
             "tags": [ 1 ],
             "image": 14,
