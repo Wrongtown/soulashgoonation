@@ -1,0 +1,100 @@
+{
+	"components": [
+		"craftable",
+		"durability",
+		"glyph",
+		"item",
+		"light_source",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"resources": [
+			{
+				"amount": 40,
+				"id": 300
+			}
+		],
+		"time": 30,
+		"tools": [
+			12
+		]
+	},
+	"description": "Glowing slightly as if lit from within, this flexible weapon is deadly in the right hands.",
+	"durability": 999,
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					84
+				],
+				"delay": 0,
+				"index": 1538
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": 200109,
+	"item": {
+		"image": 442,
+		"type": 13
+	},
+	"light_source": {
+		"finish": -1,
+		"fuel": [],
+		"lit_image": 442,
+		"range": 10
+	},
+	"minimap_pixel": [
+		205,
+		205,
+		84
+	],
+	"name": "Gamer Rope",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			0,
+			0
+		],
+		"intelligence": [
+			100,
+			200
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"value": 200,
+	"weapon": {
+		"attack_speed": 0.10000000149011612,
+		"damage": [
+			{
+				"dmg_max": 30,
+				"dmg_min": 6,
+				"dmg_type": "true"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 5,
+		"parry_bonus": 5,
+		"range": 1,
+		"type": 8
+	},
+	"weight": 0.10000000149011612
+}

@@ -1,10 +1,10 @@
 {
 	"ability_user": [
-		20,
-		84
+		100022,
+		100023
 	],
 	"artificial_intelligence": {
-		"allies": [			
+		"allies": [
 			5,
 			35
 		],

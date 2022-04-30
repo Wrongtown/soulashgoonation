@@ -1,0 +1,107 @@
+{
+	"artificial_intelligence": {
+		"allies": [
+			36
+		],
+		"allow_production": [],
+		"behaviors": [
+			16
+		],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": 25,
+	"description": "The eyes of this toddler gleam with an unsatiated craving for violence. It looks wildly around it, choosing its targets indiscriminately before lunging at them.\n\nIt's a little creepy to be honest.",
+	"dialogues": [
+		2
+	],
+	"fighter": {
+		"attackNames": [
+			"Bite",
+			"Scratch"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 30000000,
+				"index": 1510
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 30000000,
+				"index": 1511
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 10,
+	"id": 200114,
+	"minimap_pixel": [
+		200,
+		200,
+		200
+	],
+	"moveable": {
+		"speed": 0.800000011920929
+	},
+	"name": "Murderous Toddler",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": false
+	},
+	"statistics": {
+		"dexterity": [
+			20,
+			30
+		],
+		"endurance": [
+			1,
+			1
+		],
+		"intelligence": [
+			1,
+			1
+		],
+		"strength": [
+			1,
+			1
+		],
+		"willpower": [
+			1,
+			1
+		]
+	},
+	"tags": [
+		9,
+		1,
+		36
+	]
+}

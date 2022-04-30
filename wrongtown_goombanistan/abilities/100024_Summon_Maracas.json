@@ -1,0 +1,21 @@
+{
+	"animation": 195,
+	"cast_time": 2.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 50,
+		"stamina": 50
+	},
+	"description": "Summon a Magical Maraca. Be careful performing this ritual as it really takes it out of you!\n\nIt is said that Goombamancers who have deconstructed these weapons and learned to hand-craft their own maracas have produced even more powerful versions!",
+	"duration": 0.0,
+	"effects": {
+		"cage": 200009
+	},
+	"id": 100024,
+	"image": 281,
+	"level": 1,
+	"name": "Maraca Summoning Ritual",
+	"profession": 100099,
+	"range": 2,
+	"target": "tile"
+}
