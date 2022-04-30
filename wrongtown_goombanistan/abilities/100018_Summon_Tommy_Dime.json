@@ -1,13 +1,13 @@
 {
 	"animation": 200006,
 	"cast_time": 1.0,
-	"cooldown": 50.0,
+	"cooldown": 100.0,
 	"cost": {
 		"health": 5,
 		"stamina": 10
 	},
 	"description": "Summon Tommy Dime. He's a lover AND a fighter.",
-	"duration": 50.0,
+	"duration": 100.0,
 	"effects": {
 		"summon": 200112,
 		"summon_count": 1

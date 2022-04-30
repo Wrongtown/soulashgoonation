@@ -1,13 +1,13 @@
 {
 	"animation": 200009,
 	"cast_time": 1.0,
-	"cooldown": 50.0,
+	"cooldown": 100.0,
 	"cost": {
 		"health": 10,
 		"stamina": 5
 	},
 	"description": "Summon Decibel, sub-lord  extrodinaire.\n\nThere are some who call him.... loud.",
-	"duration": 50.0,
+	"duration": 100.0,
 	"effects": {
 		"summon": 200108,
 		"summon_count": 1
