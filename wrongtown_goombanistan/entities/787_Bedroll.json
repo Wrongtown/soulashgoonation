@@ -1,0 +1,60 @@
+{
+	"background": {
+		"color": [
+			93,
+			67,
+			28
+		]
+	},
+	"components": [
+		"craftable",
+		"background",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"resting_place",
+		"weight"
+	],
+	"craftable": {
+		"resources": [
+			{
+				"amount": 10,
+				"id": 300
+			}
+		],
+		"time": 30,
+		"tools": [
+			12
+		]
+	},
+	"description": "A portable bed used by travelers. It doesn't offer much, but it's better than lying on a naked stone.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					153,
+					108,
+					44
+				],
+				"delay": 0,
+				"index": 28
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": 787,
+	"item": {
+		"image": 317,
+		"type": 17
+	},
+	"minimap_pixel": [
+		93,
+		67,
+		28
+	],
+	"name": "Bedroll",
+	"resting_place": 135,
+	"weight": 3.0
+}
