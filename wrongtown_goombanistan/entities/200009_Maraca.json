@@ -55,56 +55,7 @@
 		84
 	],
 	"name": "Maraca",
-	"tool": [
-		{
-			"id": 6,
-			"quality": 100
-		},
-		{
-			"id": 9,
-			"quality": 100
-		},
-		{
-			"id": 16,
-			"quality": 100
-		},
-		{
-			"id": 17,
-			"quality": 100
-		},
-		{
-			"id": 8,
-			"quality": 100
-		},
-		{
-			"id": 2,
-			"quality": 100
-		},
-		{
-			"id": 3,
-			"quality": 100
-		},
-		{
-			"id": 11,
-			"quality": 100
-		},
-		{
-			"id": 12,
-			"quality": 100
-		},
-		{
-			"id": 13,
-			"quality": 100
-		},
-		{
-			"id": 1,
-			"quality": 100
-		},
-		{
-			"id": 14,
-			"quality": 100
-		}
-	],
+	"tool": null,
 	"value": 200,
 	"weapon": {
 		"attack_animation": 200005,
