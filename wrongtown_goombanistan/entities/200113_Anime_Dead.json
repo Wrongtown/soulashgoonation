@@ -17,6 +17,7 @@
 		"ability_user",
 		"actor",
 		"artificial_intelligence",
+		"collidable",
 		"dialogues",
 		"equipment",
 		"experience_gainer",
