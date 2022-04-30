@@ -1,6 +1,6 @@
 # Goombanistan Mod for Soulash
 
-This is a mod for the 2022 roguelike video game **Soulash** created by [Artur Smiarowski(https://www.patreon.com/asmiarowski)] (available on [Steam](https://store.steampowered.com/app/1623210/Soulash/) [itch.io](https://wizardsofthecode.itch.io/soulash) & [gog.com](https://www.gog.com/game/soulash)) for Windows. _You must own the game in order for this to be of any use to you_.
+This is a mod for the 2022 roguelike video game **Soulash** created by [Artur Smiarowski](https://www.patreon.com/asmiarowski) (available on [Steam](https://store.steampowered.com/app/1623210/Soulash/) [itch.io](https://wizardsofthecode.itch.io/soulash) & [gog.com](https://www.gog.com/game/soulash)) for Windows. _You must own the game in order for this to be of any use to you_.
 
 More specifically it's a bit of a "vanity project" for [Anna Vanston](https://www.annavanston.com/) and some members of her chat community at [https://www.twitch.tv/goombanna](twitch.tv/goombanna) with a bunch of in-jokes & references that won't make much sense to outsiders. So if you're not part of that community it's probably not particularly interesting to you :)
 
