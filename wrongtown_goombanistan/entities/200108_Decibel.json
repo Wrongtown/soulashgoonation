@@ -6,7 +6,7 @@
 		123
 	],
 	"artificial_intelligence": {
-		"allies": [		
+		"allies": [
 			5,
 			35
 		],
@@ -38,7 +38,7 @@
 		"statistics",
 		"tags"
 	],
-	"corpse": 640,
+	"corpse": 25,
 	"description": "Decibel. \n\nSubs for the sub lord! \n\nHypes for the hype train!",
 	"dialogues": [
 		9010,
