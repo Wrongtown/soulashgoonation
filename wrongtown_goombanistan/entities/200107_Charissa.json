@@ -100,9 +100,9 @@
 	"health": 225,
 	"id": 200107,
 	"minimap_pixel": [
-		255,
-		255,
-		97
+		54,
+		164,
+		255
 	],
 	"moveable": {
 		"speed": 1.0
@@ -117,23 +117,23 @@
 	"statistics": {
 		"dexterity": [
 			16,
-			20
+			100
 		],
 		"endurance": [
 			40,
 			43
 		],
 		"intelligence": [
-			5,
-			10
+			30,
+			100
 		],
 		"strength": [
 			54,
 			57
 		],
 		"willpower": [
-			5,
-			10
+			20,
+			100
 		]
 	},
 	"tags": [
