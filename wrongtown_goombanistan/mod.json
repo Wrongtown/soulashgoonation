@@ -13,6 +13,7 @@
 	],
 	"name": "Goombanistan",
 	"overwrite": true,
+	"steam_publish_id": 2801735216,
 	"thumbnail": "",
-	"version": "1.0.0"
+	"version": "1.0.1"
 }
