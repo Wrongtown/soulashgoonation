@@ -1,0 +1,28 @@
+{
+	"animation": 127,
+	"cast_time": 1.0,
+	"cooldown": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "Blasts pure death at a specific target within range doing ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 1,
+		"aoe_shape": 3,
+		"damage": [
+			30,
+			50
+		],
+		"damage_type": "death",
+		"damage_weapon": 1.0
+	},
+	"id": 100025,
+	"image": 112,
+	"level": 1,
+	"name": "Death Blast",
+	"profession": 100099,
+	"range": 10,
+	"target": "aoe_tile"
+}
