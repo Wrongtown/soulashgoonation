@@ -1,10 +1,8 @@
 {
 	"animation_origin_self": false,
 	"camera_shake": {
-		"bounces": 2,
 		"duration": 0.0,
-		"power": 0.0,
-		"type": 1
+		"power": 0.0
 	},
 	"chain_particles": false,
 	"id": 200010,
@@ -14,8 +12,8 @@
 		{
 			"color": [
 				[
-					255,
-					255,
+					29,
+					182,
 					255,
 					255
 				]
@@ -24,23 +22,24 @@
 			"explosion_range": 4,
 			"flags": 2331,
 			"pulse_background": 300.0,
-			"tile_id": 402,
+			"tile_id": 321,
 			"velocity": 200.0
 		},
 		{
 			"color": [
 				[
-					255,
-					255,
-					255,
+					0,
+					202,
+					210,
 					91
 				]
 			],
 			"delay": 400.0,
 			"explosion_range": 4,
 			"flags": 2331,
+			"life": 2000.0,
 			"pulse_background": 300.0,
-			"tile_id": 404,
+			"tile_id": 320,
 			"velocity": 200.0
 		}
 	],
