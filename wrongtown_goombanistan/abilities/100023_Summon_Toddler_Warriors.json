@@ -1,5 +1,5 @@
 {
-	"animation": 18,
+	"animation": 200012,
 	"cast_time": 1.0,
 	"cooldown": 10.0,
 	"cost": {
@@ -11,13 +11,14 @@
 	"effects": {
 		"aoe_range": 10,
 		"aoe_shape": 1,
-		"summon": 47,
-		"summon_count": 10
+		"cage": 200114,
+		"summon_count": 22
 	},
 	"id": 100023,
 	"image": 443,
-	"level": 99,
+	"level": 1,
 	"name": "Summon Toddler Warriors",
+	"profession": 100099,
 	"range": 5,
 	"target": "tile"
 }

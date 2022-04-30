@@ -1086,7 +1086,8 @@
         { "id": 32, "name": "golem", "options": [ "no_fatigue" ] },
         { "id": 33, "name": "angelic" },
         { "id": 34, "name": "djinn" },
-        { "id": 35, "name": "goombanistanian" }
+        { "id": 35, "name": "goombanistanian" },
+        { "id": 36, "name": "horde" }
     ],
     "base_recipes": [
         346, 347, 363, 364, 365, 366, 145, 147, 149, 159, 161, 801, 803
