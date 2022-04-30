@@ -9,7 +9,6 @@ echo.
 @echo off 
 pause
 
-copy ..\..\..\Assets\gfx\monsters.png ..\..\..\Assets\gfx\monsters.bak
 copy ..\core_gfx\assets\gfx\Untitled-1.png ..\core_gfx\assets\gfx\Untitled-1.bak
 
 @echo off
@@ -23,6 +22,5 @@ echo.
 @echo off 
 pause
 
-copy assets\gfx\monsters.png ..\..\..\Assets\gfx\monsters.png
 copy assets\gfx\Untitled-1.png ..\core_gfx\assets\gfx\Untitled-1.png
 pause
