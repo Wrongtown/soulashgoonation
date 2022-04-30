@@ -14,9 +14,8 @@
 	},
 	"id": 100020,
 	"image": 607,
-	"level": 1,
+	"level": 99,
 	"name": "Summon Anime Dead",
-	"profession": 100099,
 	"range": 10,
 	"target": "tile"
 }
