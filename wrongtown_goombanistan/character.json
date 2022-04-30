@@ -876,7 +876,7 @@
         {
             "id": 99,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\n Just play this one, damn it Vanston![/color]\n\nAll statistics +5\nGets hungry 80% slower\nRequires 50% less souls to level up\nCan see in the dark\n\nHigh chance of crafting magic items & artefacts.\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Items:[/color] Fairy Dust, Bandage, Knife, Corset, Leather Pants, High Boots\n[color=130,163,175,255]Recipes:[/color] Fishing Rod, Goatskin",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -897,7 +897,7 @@
                 { "id": 580, "amount": 1 },
                 { "id": 307, "amount": 1 }
             ],
-            "recipes": [120],
+            "recipes": [120, 346],
             "playable": true,
             "tags": [ 1 ],
             "image": 14,
@@ -1036,7 +1036,7 @@
         {
             "id": 100099,
             "name": "Goombamancer",
-            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones, Fairy Dust\n[color=130,163,175,255]Abilities:[/color] Summon Maracababy\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to both cheat and cause death. \n\nWith their trusty LED-lit Gamer Rope in hand they have a high chance of crafting magic items & artefacts.[/color]\n\n[color=130,163,175,255]Items:[/color] Longsword, Diadem, Metal Bra, Golden Bracers, Gamer Rope\n[color=130,163,175,255]Beginning Abilities:[/color] Party Trick, Command Allies\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
                 { "id": 79, "amount": 1},
                 { "id": 392, "amount": 1},
