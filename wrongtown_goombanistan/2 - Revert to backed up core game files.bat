@@ -9,6 +9,5 @@ echo.
 @echo off 
 pause
 
-copy ..\..\..\Assets\gfx\monsters.bak ..\..\..\Assets\gfx\monsters.png
-
+copy ..\core_gfx\assets\gfx\Untitled-1.bak ..\core_gfx\assets\gfx\Untitled-1.png
 pause
