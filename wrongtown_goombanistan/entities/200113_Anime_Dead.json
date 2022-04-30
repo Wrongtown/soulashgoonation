@@ -9,7 +9,7 @@
 		],
 		"allow_production": [],
 		"behaviors": [
-			10
+			18
 		],
 		"enemies": []
 	},
@@ -20,7 +20,6 @@
 		"dialogues",
 		"equipment",
 		"experience_gainer",
-		"fighter",
 		"glyph",
 		"health",
 		"minimap_pixel",
@@ -58,9 +57,6 @@
 	"experience_gainer": {
 		"exp": 1000,
 		"level": 10
-	},
-	"fighter": {
-		"attackNames": null
 	},
 	"glyph": {
 		"frames": [
