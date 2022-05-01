@@ -6,13 +6,13 @@
 		"health": 1,
 		"stamina": 10
 	},
-	"description": "Summons Toddler Warriors. No guarantee they will behave in a way you desire.",
+	"description": "Summons Toddler Warriors. No guarantee they will behave in a way you desire.\n\nThis has been reduced to Charissa's actual prediction of what Anna could handle.",
 	"duration": 200.0,
 	"effects": {
 		"aoe_range": 6,
 		"aoe_shape": 1,
 		"cage": 200114,
-		"summon_count": 22
+		"summon_count": 5
 	},
 	"id": 100023,
 	"image": 443,
