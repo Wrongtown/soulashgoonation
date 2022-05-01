@@ -16,7 +16,7 @@ If you just want to play the mod, you don't need a github account. It looks like
 
 3. Open the `..\Soulash\data\mods\` sub-directory (which contains `..\core\` and `..\core_gfx\`) in Windows Explorer and keep that open.
 
-4. Head to the [Releases](https://github.com/Wrongtown/soulashgoonation/releases) page for this repository and download the most .zip file for the most recent version.
+4. Head to the [Releases](https://github.com/Wrongtown/soulashgoonation/releases) page for this repository and download the .zip file for the most recent version.
 
 6. Right-click the downloaded .zip file and extract it. By default all of the content will be contained within a `..\soulashgoonation-`_version_`\` directory. Open it.
 
