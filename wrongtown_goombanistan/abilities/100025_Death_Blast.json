@@ -20,9 +20,8 @@
 	},
 	"id": 100025,
 	"image": 112,
-	"level": 1,
+	"level": 99,
 	"name": "Death Blast",
-	"profession": 100099,
 	"range": 10,
 	"target": "aoe_tile"
 }
