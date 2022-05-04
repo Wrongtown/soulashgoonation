@@ -9,7 +9,9 @@
 			35
 		],
 		"allow_production": [],
-		"behaviors": [],
+		"behaviors": [
+			18
+		],
 		"enemies": [
 			4,
 			9
