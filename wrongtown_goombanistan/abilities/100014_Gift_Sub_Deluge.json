@@ -3,24 +3,24 @@
 	"cast_time": 1.0,
 	"cooldown": 1.0,
 	"cost": {
-		"health": 1,
-		"stamina": 0
+		"health": 0,
+		"stamina": 1
 	},
 	"description": "Drop fat stacks of cash from the sky. It will deal ::damage ::damage_type damage to everyone in the area.",
 	"duration": 0.0,
 	"effects": {
-		"aoe_range": 2,
+		"aoe_range": 10,
 		"aoe_shape": 1,
 		"damage": [
 			10,
-			10
+			100
 		],
 		"damage_type": "true"
 	},
 	"id": 100014,
 	"image": 50,
 	"level": 99,
-	"min_range": 4,
+	"min_range": 11,
 	"name": "Gift Sub Deluge",
 	"range": 15,
 	"target": "aoe_tile"

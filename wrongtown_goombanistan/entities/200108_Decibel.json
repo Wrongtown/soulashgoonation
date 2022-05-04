@@ -2,7 +2,6 @@
 	"ability_user": [
 		100014,
 		47,
-		71,
 		123
 	],
 	"artificial_intelligence": {
@@ -11,7 +10,9 @@
 			35
 		],
 		"allow_production": [],
-		"behaviors": [],
+		"behaviors": [
+			18
+		],
 		"enemies": [
 			4,
 			9
@@ -48,9 +49,17 @@
 		"right_hand": [
 			{
 				"chance": 1.0,
-				"id": 115,
-				"name": "Battle Axe",
+				"id": 779,
+				"name": "Mercenary Bow",
 				"stack": 1
+			}
+		],
+		"ammo": [
+			{
+				"chance": 1.0,
+				"id": 857,
+				"name": "Feather Arrow",
+				"stack": 50
 			}
 		],
 		"torso_armor": [
