@@ -3,7 +3,7 @@
 	"cast_time": 1.0,
 	"cooldown": 20.0,
 	"cost": {
-		"health": 1,
+		"health": 30,
 		"stamina": 10
 	},
 	"description": "Summons Toddler Warriors. No guarantee they will behave in a way you desire.\n\nThis has been reduced to Charissa's actual prediction of what Anna could handle.",

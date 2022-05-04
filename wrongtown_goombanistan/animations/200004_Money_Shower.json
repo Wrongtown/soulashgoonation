@@ -8,16 +8,16 @@
 		"type": 1
 	},
 	"chain_particles": false,
-	"explosion_range": 4,
+	"explosion_range": 20,
 	"id": 200004,
-	"ignore_roof": true,
+	"ignore_roof": false,
 	"name": "Money Shower",
 	"random_delay": [
 		0,
-		1000
+		2000
 	],
 	"random_target": true,
-	"repeat": 89,
+	"repeat": 500,
 	"sound": {
 		"id": 1005,
 		"volume": 100

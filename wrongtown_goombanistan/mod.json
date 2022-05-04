@@ -5,7 +5,7 @@
 	"disable_3d": false,
 	"disable_transition_tiles": false,
 	"draw_all_glyphs": true,
-	"game_required": "1.0.9",
+	"game_required": "1.1.10",
 	"icon": "goomWink.png",
 	"mods_required": [
 		"core",
@@ -15,5 +15,5 @@
 	"overwrite": true,
 	"steam_publish_id": 2801735216,
 	"thumbnail": "",
-	"version": "1.1.4"
+	"version": "1.2.0"
 }
