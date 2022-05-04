@@ -1,10 +1,9 @@
 {
+	"animation_origin_self": false,
 	"blocking": false,
 	"camera_shake": {
-		"bounces": 0,
 		"duration": 0.0,
-		"power": 0.0,
-		"type": 1
+		"power": 0.0
 	},
 	"chain_particles": false,
 	"id": 200001,
@@ -25,7 +24,7 @@
 			"on_impact": 200002,
 			"spin": 300.0,
 			"tile_id": 992,
-			"velocity": 20.0
+			"velocity": 40.0
 		}
 	],
 	"sound": {
