@@ -25,7 +25,6 @@
 			"explosion_range": 1,
 			"flags": 32768,
 			"life": 500.0,
-			"on_impact": 164,
 			"pulse_background": 300.0,
 			"tile_id": 993
 		},
