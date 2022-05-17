@@ -29,8 +29,8 @@ If you just want to play the mod, you don't need a github account. It looks like
 
 9. When you next run Soulash, select **Mods** from the main menu and mark the checkbox for the **Goombanistan** mod active to match the standard **Core** and **Core GFX** options.
 10. Close the **Mods** window by clicking the X on that window, then start a new game!
-    1. Make sure you choose the Goomiest options for _Races_ and _Professions_ so you don't miss anything! Hint: Use the arrows ;)
-    2. I recommend that you add the _Command Allies_ ability from your **Skill book** (hotkey `v`) to your action bar ASAP for this mod. `!ban backseating`
+    1. Make sure you choose the Goomiest options for _Races_ and _Professions_ so you don't miss anything! Hint: Use the arrows on the racial options section ;)
+    2. I _strongly_ recommend that you add the Command Allies ability from your **Skill book** (hotkey `v`) to your action bar ASAP for this mod. `!ban backseating`
 
 
 
