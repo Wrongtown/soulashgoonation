@@ -29,9 +29,59 @@ If you just want to play the mod, you don't need a github account. It looks like
 
 9. When you next run Soulash, select **Mods** from the main menu and mark the checkbox for the **Goombanistan** mod active to match the standard **Core** and **Core GFX** options.
 10. Close the **Mods** window by clicking the X on that window, then start a new game!
-    1. Make sure you choose the Goomiest options for _Races_ and _Professions_ so you don't miss anything! Hint: Use the arrows ;)
-    2. I recommend that you add the _Command Allies_ ability from your **Skill book** (hotkey `v`) to your action bar ASAP for this mod. `!ban backseating`
+    1. Make sure you choose the Goomiest options for _Races_ and _Professions_ so you don't miss anything! Hint: Use the arrows on the racial options section ;)
+    2. I _strongly_ recommend that you add the Command Allies ability from your **Skill book** (hotkey `v`) to your action bar ASAP for this mod. `!ban backseating`
 
+
+
+## Sharp Cheddar Mode
+
+I've added a script which will allow significantly faster levelling, even lower hunger and the ability to craft maracas from the beginning.
+
+### To activate Sharp Cheddar Mode
+* Open the `..\wrongtown_goombanistan\` directory and run the `3 - Engage Sharp Cheddar Mode.bat` script.
+
+Next time you run Soulash, starting a new game will be based off these new stats.
+
+### To de-activate Sharp Cheddar Mode
+* Open the `..\wrongtown_goombanistan\` directory and run the `4 - Disengage Sharp Cheddar Mode.bat` script.
+Next time you run Soulash, starting a new game will be based off the core Goombanistan mod.
+
+## Debug Mode
+
+If you would like to go even further, you can engage Debug Mode which will allow some console commands during gameplay.
+
+_Be aware that debugging may impact game performance as it logs all of the AI actions into files._
+
+To do so, navigate to _C:\Users\\**YourUserHere**\AppData\Roaming\WizardsOfTheCode\Soulash\data_ and open _user_settings.json_ in your favourite text editor.
+
+The fourth line of this file should read `"enabled": false`. Replace `false` with `true` and save the file.
+
+Next time you run Soulash, you can press the backtick/tilde key ~ on your keyboard to display a single-line command prompt on the screen. 
+
+### Debug Commands
+
+`heal` - Heals your character to their current maximum health.
+
+`exp 100` - Adds 100 experience to your character. The integer _100_ can be replaced with any integer value to gain that much experience.
+
+`teleport x,y,z` - teleport yoru character to the x,y,z co-ordinates you have provided. With Debug Mode engaged you should see the x,y,z co-ordinates of your mouse at the bottom right corner of your screen.
+
+`spawn 47` or `spawn 47 5` - Create entity/entities. The first number is the ID of the entity you wish to spawn nearby. It could be an item or an NPC entity. The second number (if used) will spawn multiple entities; if it's a stackable item it will stack at the same location as you. If spawning an NPC this way, it will spawn in a random position near the co-ordinates you provided. See **Identifying Entities** below for instructions on finding the correct ID.
+
+`set_stat strength 100` - Sets the stat value you provide to the integer you provide. Valid stat options are `strength`, `endurance`, `dexterity`, `intelligence` & `willpower`.
+
+`recipe 164` - Teaches you the recipe to craft the item matching index 164. See **Identifying Entities** below for instructions on finding the correct ID. Note that some items (and all NPCs) are not craftable so this command will not work.
+
+`thirst 100` - Adds the provided integer value to your thirst bar. Can be negative if you want to be _more thirsty_.
+
+`hunger 100` - Adds the provided integer value to your hunger bar. Can be negative if you want to be _more hungry_.
+
+`time 5` - Spends a number of turns equal to the provided integer without resting/sleeping etc.
+
+
+#### Identifying Entities
+If you check the file names under `../Soulash/data/mods/core/entities/` the characters before the `_` in the file name are the entity ID.
 
 
 ------ 

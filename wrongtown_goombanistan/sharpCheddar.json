@@ -876,7 +876,7 @@
         {
             "id": 99,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants\n[color=130,163,175,255]Bonus Recipes:[/color]  Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Paper ",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 90% slower.\nRequires 90% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants \n[color=130,163,175,255]Bonus Recipes:[/color] Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Maraca, Paper ",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -886,8 +886,8 @@
             },
             "passives": [
                 {"name": "infravision", "value": true},
-                {"name": "hunger", "value": 1.8},
-                {"name": "lower_exp_needed", "value": -0.5},
+                {"name": "hunger", "value": 1.9},
+                {"name": "lower_exp_needed", "value": -0.9},
                 {"name": "sight", "value": 10}
             ],
             "items": [
@@ -898,7 +898,7 @@
                 { "id": 580, "amount": 1 },
                 { "id": 307, "amount": 1 }
             ],
-            "recipes": [120, 346, 580, 787, 791, 955, 200109],
+            "recipes": [120, 346, 580, 787, 791, 955, 200109, 200009],
             "playable": true,
             "tags": [ 1 ],
             "image": 14,
