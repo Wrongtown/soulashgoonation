@@ -34,6 +34,19 @@ If you just want to play the mod, you don't need a github account. It looks like
 
 
 
+## Sharp Cheddar Mode
+
+I've added a script which will allow significantly faster levelling, even lower hunger and the ability to craft maracas from the beginning.
+
+### To activate Sharp Cheddar Mode
+* Open the `..\wrongtown_goombanistan\` directory and run the `3 - Engage Sharp Cheddar Mode.bat` script.
+
+Next time you run Soulash, starting a new game will be based off these new stats.
+
+### To de-activate Sharp Cheddar Mode
+* Open the `..\wrongtown_goombanistan\` directory and run the `4 - Disengage Sharp Cheddar Mode.bat` script.
+Next time you run Soulash, starting a new game will be based off the core Goombanistan mod.
+
 ## Debug Mode
 
 If you would like to go even further, you can engage Debug Mode which will allow some console commands during gameplay.
