@@ -876,7 +876,7 @@
         {
             "id": 99,
             "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Items:[/color] Fairy Dust, Bandage, Knife, Corset, Leather Pants, High Boots\n[color=130,163,175,255]Bonus Recipes:[/color] Fishing Rod, Corset, Goatskin, Bedroll, Paper, Ink, Gamer Rope",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants\n[color=130,163,175,255]Bonus Recipes:[/color]  Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Paper ",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -1037,7 +1037,7 @@
         {
             "id": 100099,
             "name": "Goombamancer",
-            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to both cheat and cause death. \n\nWith their trusty LED-lit Gamer Rope in hand they have a high chance of crafting magic items & artefacts.[/color]\n\n[color=130,163,175,255]Items:[/color] Longsword, Diadem, Metal Bra, Golden Bracers, Gamer Rope\n[color=130,163,175,255]Beginning Abilities:[/color] Party Trick, Command Allies\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to both cheat and cause death. \n\nWith their trusty LED-lit Gamer Rope in hand they have a high chance of [/color][color=99,177,255]crafting[/color][color=180,180,180,255] magic items & artefacts.[/color]\n\n[color=130,163,175,255]Items:[/color] Longsword, Diadem, Metal Bra, Golden Bracers, Gamer Rope\n[color=130,163,175,255]Beginning Abilities:[/color] Party Trick, Command Allies\n[color=130,163,175,255]Available abilities:[/color] {}",
            "items": [
                 { "id": 79, "amount": 1},
                 { "id": 392, "amount": 1},
