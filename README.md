@@ -34,6 +34,43 @@ If you just want to play the mod, you don't need a github account. It looks like
 
 
 
+## Debug Mode
+
+If you would like to go even further, you can engage Debug Mode which will allow some console commands during gameplay.
+
+_Be aware that debugging may impact game performance as it logs all of the AI actions into files._
+
+To do so, navigate to _C:\Users\\**YourUserHere**\AppData\Roaming\WizardsOfTheCode\Soulash\data_ and open _user_settings.json_ in your favourite text editor.
+
+The fourth line of this file should read `"enabled": false`. Replace `false` with `true` and save the file.
+
+Next time you run Soulash, you can press the backtick/tilde key ~ on your keyboard to display a single-line command prompt on the screen. 
+
+### Debug Commands
+
+`heal` - Heals your character to their current maximum health.
+
+`exp 100` - Adds 100 experience to your character. The integer _100_ can be replaced with any integer value to gain that much experience.
+
+`teleport x,y,z` - teleport yoru character to the x,y,z co-ordinates you have provided. With Debug Mode engaged you should see the x,y,z co-ordinates of your mouse at the bottom right corner of your screen.
+
+`spawn 47` or `spawn 47 5` - Create entity/entities. The first number is the ID of the entity you wish to spawn nearby. It could be an item or an NPC entity. The second number (if used) will spawn multiple entities; if it's a stackable item it will stack at the same location as you. If spawning an NPC this way, it will spawn in a random position near the co-ordinates you provided. See **Identifying Entities** below for instructions on finding the correct ID.
+
+`set_stat strength 100` - Sets the stat value you provide to the integer you provide. Valid stat options are `strength`, `endurance`, `dexterity`, `intelligence` & `willpower`.
+
+`recipe 164` - Teaches you the recipe to craft the item matching index 164. See **Identifying Entities** below for instructions on finding the correct ID. Note that some items (and all NPCs) are not craftable so this command will not work.
+
+`thirst 100` - Adds the provided integer value to your thirst bar. Can be negative if you want to be _more thirsty_.
+
+`hunger 100` - Adds the provided integer value to your hunger bar. Can be negative if you want to be _more hungry_.
+
+`time 5` - Spends a number of turns equal to the provided integer without resting/sleeping etc.
+
+
+#### Identifying Entities
+If you check the file names under `../Soulash/data/mods/core/entities/` the characters before the `_` in the file name are the entity ID.
+
+
 ------ 
 **†** "I don't trust you! I'm not running some weird script!". 
 Fair enough, this is generally a good attitude! I was trying to make things easier for you, but you can do it manually. 
