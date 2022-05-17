@@ -1,0 +1,1399 @@
+{
+    "races": [
+        {
+            "id": 0,
+            "name": "Human",
+            "description": "[color=180,180,180,255]Humans were the most common being in the world once, but these days are long gone. The population decimated by constant wars is now just a shadow of its former glory. Representatives of this race are extremely adaptable to the situation, but their history was marked heavily by external influence. As the War of Worlds has ended, a great empire has been formed, where a single human family clings to the seat of power to this day.[/color]\n\nAll statistics +1\nGets hungry 50% slower\nRequires 10% less souls to level up\n\n[color=130,163,175,255]Items:[/color] Knife, Bandage\n[color=130,163,175,255]Recipes:[/color] Fishing Rod",
+            "statistics": {
+                "strength": 1,
+                "endurance": 1,
+                "dexterity": 1,
+                "intelligence": 1,
+                "willpower": 1
+            },
+            "passives": [
+                {"name": "hunger", "value": 1.5},
+                {"name": "lower_exp_needed", "value": -0.1}
+            ],
+            "items": [
+                { "id": 70, "amount": 1 }, 
+                { "id": 347, "amount": 1 }, 
+                { "id": 120, "amount": 1 }
+            ],
+            "recipes": [120],
+            "playable": true,
+            "tags": [ 1 ],
+            "image": 4,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 1,
+            "name": "Dark dwarf",
+            "description": "[color=180,180,180,255]Dark dwarves are a subrace of dwarves completely corrupted by greed. They prefer to build their incredible keeps very deep below ground or near volcanoes. Beings of this race are known for being cruel and malevolent.[/color]\n\nEndurance +2\nWillpower +2\nInfravision: see in the dark.\nTinkerer: double chance to learn new recipe when salvaging.\n\n[color=130,163,175,255]Items:[/color] Pickaxe, Belt\n[color=130,163,175,255]Recipes:[/color] Pickaxe",
+            "statistics": {
+                "endurance": 2,
+                "willpower": 2
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "tinkerer", "value": 2.0}
+            ],
+            "items": [
+                { "id": 111, "amount": 1 }, 
+                { "id": 190, "amount": 1 }
+            ],
+            "recipes": [111],
+            "playable": true,
+            "tags": [ 6 ],
+            "image": 2,
+            "names": {
+                "male": "npc/names/dwarf_male.txt",
+                "female": "npc/names/dwarf_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/dwarf.txt"
+            },
+            "eyes": "npc/eyes/dwarf.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 2,
+            "name": "Elf",
+            "description": "None",
+            "playable": false,
+            "tags": [ 7 ],
+            "image": 41,
+            "names": {
+                "male": "npc/names/elf_male.txt",
+                "female": "npc/names/elf_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/elf.txt"
+            },
+            "eyes": "npc/eyes/elf.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 3,
+            "name": "Halfling",
+            "description": "None",
+            "playable": false,
+            "tags": [ 25 ],
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/halfling.txt"
+            },
+            "eyes": "npc/eyes/halfling.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 4,
+            "name": "Goblin",
+            "description": "[color=180,180,180,255]Goblins are small greenskin creatures known for their ruthlessness. Some say they are shorter orc cousins. They form tribes and prefer to live in the mountains. Their greed pushes them to challenge dwarves for their territory constantly. From time to time, they organize in hordes that swarm even the human empire.[/color]\n\nDexterity +3, Endurance +1\nInfravision: see in the dark.\nSneaking +10\n\n[color=130,163,175,255]Items:[/color] Rags, Humanoid Leg, Broken Sword\n[color=130,163,175,255]Recipes:[/color] Rags",
+            "statistics": {
+                "dexterity": 3,
+                "endurance": 1
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "sneaking", "value": 10}
+            ],
+            "items": [
+                { "id": 23, "amount": 1 },
+                { "id": 959, "amount": 1 },
+                { "id": 685, "amount": 1 }
+            ],
+            "recipes": [23],
+            "playable": true,
+            "tags": [ 0, 26 ],
+            "image": 1,
+            "names": {
+                "male": "npc/names/goblin_male.txt",
+                "female": "npc/names/goblin_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/goblin.txt"
+            },
+            "eyes": "npc/eyes/goblin.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 5,
+            "name": "Dark elf",
+            "description": "[color=180,180,180,255]A long time ago dark elves were living in the forests with their brethren, but they were corrupted by dark gods. Now they occupy huge underground cities. Their controversial religious practices and rituals make them feared and dreaded. They despise most other races for opposing their rightful place among them.[/color]\n\nDexterity +2, Intelligence +1, Willpower +1\nInfravision: see in the dark.\nSight range +1\n\n[color=130,163,175,255]Items:[/color] Dagger\n[color=130,163,175,255]Recipes:[/color] Short Bow",
+            "statistics": {
+                "dexterity": 2,
+                "intelligence": 1,
+                "willpower": 1
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "sight", "value": 1}
+            ],
+            "items": [
+                { "id": 71, "amount": 1 }
+            ],
+            "recipes": [102],
+            "playable": true,
+            "tags": [ 9 ],
+            "image": 3,
+            "names": {
+                "male": "npc/names/elf_male.txt",
+                "female": "npc/names/elf_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/elf.txt"
+            },
+            "eyes": "npc/eyes/elf.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 6,
+            "name": "Vampire",
+            "description": "[color=180,180,180,255]Vampires are dead beings of living races, cursed to wander the world till the end of times. They don't eat regular food and don't drink water. They feed by drinking the blood of the living to sustain their immortal bodies. Vampires have formed an enclave in the ruins of Black Sun Castle, where they scheme to take over the world and enslave the living like cattle.[/color]\n\nStrength +1, Endurance +2, Intelligence +1\nThirst and hunger is replaced by bloodlust.\nInfravision: see in the dark.\n\n[color=130,163,175,255]Items:[/color] Cloak, Hood\n[color=130,163,175,255]Recipes:[/color] Cloak",
+            "statistics": {
+                "strength": 1,
+                "endurance": 2,
+                "intelligence": 1
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "bloodlust", "value": true}
+            ],
+            "items": [
+                { "id": 186, "amount": 1 }, 
+                { "id": 180, "amount": 1 }
+            ],
+            "recipes": [186],
+            "playable": true,
+            "tags": [ 23, 4 ],
+            "image": 5,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 7,
+            "name": "Troll",
+            "description": "[color=180,180,180,255]Trolls are huge humanoid beasts. Not many beings of this race are considered smart, but they make up for it with brutal, physical power. Trolls have the strength to tear smaller beings apart in the blink of an eye. They are forever hungry and possess very potent regenerative powers.[/color]\n\nStrength +3, Endurance +1, Intelligence -2\nRegenerates health 20% faster.\nGets hungry 50% faster.\n\n[color=130,163,175,255]Items:[/color] Club\n[color=130,163,175,255]Recipes:[/color] Club",
+            "statistics": {
+                "strength": 3,
+                "endurance": 1,
+                "intelligence": -2
+            },
+            "passives": [
+                {"name": "regeneration", "value": 8.0},
+                {"name": "hunger", "value": 0.5}
+            ],
+            "items": [
+                { "id": 85, "amount": 1 }
+            ],
+            "recipes": [85],
+            "playable": true,
+            "tags": [ 11, 26 ],
+            "image": 6,
+            "names": {
+                "male": "npc/names/orc_male.txt",
+                "female": "npc/names/orc_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/goblin.txt"
+            },
+            "eyes": "npc/eyes/goblin.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 8,
+            "name": "Orc",
+            "description": "[color=180,180,180,255]Orcs are green. Orcs are mean. Orcs want to smash, bash and eat. They form hordes led by the most brutal chieftains of their kind to raid other races for loot. Their physical appearance is second only to trolls and giants.[/color]\n\nStrength +2, Endurance +2\nHit bonus +1 on all weapons\n\n[color=130,163,175,255]Items:[/color] Hand Axe\n[color=130,163,175,255]Recipes:[/color] Hatchet",
+            "statistics": {
+                "strength": 2,
+                "endurance": 2
+            },
+            "passives": [
+                {"name": "hit_bonus", "value": 1}
+            ],
+            "items": [
+                { "id": 109, "amount": 1 }, 
+                { "id": 180, "amount": 1 }
+            ],
+            "recipes": [108],
+            "playable": true,
+            "tags": [ 12, 26 ],
+            "image": 7,
+            "names": {
+                "male": "npc/names/orc_male.txt",
+                "female": "npc/names/orc_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/goblin.txt"
+            },
+            "eyes": "npc/eyes/goblin.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 9,
+            "name": "Lich",
+            "description": "[color=180,180,180,255]Liches are powerful mages that cheated death. There are not many of them in the world, but most are immensely powerful. Their center of power is in the Black Pyramid of Sareth where God Pharaoh Sandaver rules over the dead. The power that allows these beings to defy death is shrouded in mystery.[/color]\n\nIntelligence +2, Willpower +2\nThirst and hunger is replaced by life essence.\nDeath aura dealing 1 death damage to everything nearby every turn.\n\n[color=130,163,175,255]Items:[/color] Quarterstaff\n[color=130,163,175,255]Recipes:[/color] Mask",
+            "statistics": {
+                "intelligence": 2,
+                "willpower": 2
+            },
+            "passives": [
+                {"name": "life_essence", "value": true},
+                {"name": "aura", "value": 104}
+            ],
+            "items": [
+                { "id": 94, "amount": 1 }
+            ],
+            "recipes": [181],
+            "playable": true,
+            "tags": [ 27, 4 ],
+            "image": 8,
+            "names": {
+                "male": "npc/names/lich.txt",
+                "female": "npc/names/lich.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/skeleton.txt",
+                    "female": "npc/hair/shape/skeleton.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/skeleton.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 10,
+            "name": "Rasimi",
+            "description": "[color=180,180,180,255]Rasimi are cat-like people. There are many sub-races among them, having common parts with lions, panthers, tigers or regular house cats. They live deep in the jungles of Tar'Var. They are individuals, loners and prefer seclusion over contact with others, as they considering other races untrustworthy. The feeling is often mutual.[/color]\n\nDexterity +2, Strength +1, Endurance +1\nInfravision: see in the dark.\nMove 10% faster\n\n[color=130,163,175,255]Items:[/color] Dagger, Shirt\n[color=130,163,175,255]Recipes:[/color] Dagger",
+            "statistics": {
+                "strength": 1,
+                "endurance": 1,
+                "dexterity": 2
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "move_speed", "value": -0.1}
+            ],
+            "items": [
+                { "id": 71, "amount": 1 }, 
+                { "id": 184, "amount": 1 }
+            ],
+            "recipes": [71],
+            "playable": true,
+            "tags": [ 2, 28 ],
+            "image": 9,
+            "names": {
+                "male": "npc/names/rasimi_male.txt",
+                "female": "npc/names/rasimi_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 11,
+            "name": "None",
+            "description": "None",
+            "playable": false
+        },
+        {
+            "id": 12,
+            "name": "Troglodyte",
+            "description": "None",
+            "playable": false,
+            "tags": [ 10 ],
+            "names": {
+                "male": "npc/names/troglodyte.txt",
+                "female": "npc/names/troglodyte.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/troglodyte.txt",
+                    "female": "npc/hair/shape/troglodyte.txt"
+                },
+                "color": "npc/hair/color/reptilion.txt"
+            },
+            "eyes": "npc/eyes/troglodyte.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 13,
+            "name": "Fishman",
+            "description": "None",
+            "playable": false,
+            "tags": [ 13 ],
+            "names": {
+                "male": "npc/names/fishman.txt",
+                "female": "npc/names/fishman.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/fishman.txt",
+                    "female": "npc/hair/shape/fishman.txt"
+                },
+                "color": "npc/hair/color/fishman.txt"
+            },
+            "eyes": "npc/eyes/fishman.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 14,
+            "name": "Demon",
+            "description": "[color=180,180,180,255]Demons are natives of old underground kingdoms filled with rivers of lava. They are a very rare sighting in the surface world, and they always bring destruction and mayhem. The main form of their activity is fighting in the arena where the most potent rise up as tribe leaders. Their main goal is to exterminate the surface races that dig tunnels causing disasters in their cities.[/color]\n\nEndurance +4\n+1 damage for every 10% health lost\n\n[color=130,163,175,255]Items:[/color] Morning Star\n[color=130,163,175,255]Recipes:[/color] Morning Star",
+            "statistics": {
+                "endurance": 4
+            },
+            "passives": [
+                {"name": "bonus_damage_missing_life", "value": 1}
+            ],
+            "items": [
+                { "id": 92, "amount": 1 }
+            ],
+            "recipes": [92],
+            "playable": true,
+            "image": 44,
+            "tags": [ 9, 14 ],
+            "names": {
+                "male": "npc/names/demon.txt",
+                "female": "npc/names/demon.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/reptilion.txt"
+            },
+            "eyes": "npc/eyes/reptilion.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 15,
+            "name": "Satyr",
+            "description": "None",
+            "playable": false,
+            "tags": [ 15 ],
+            "names": {
+                "male": "npc/names/satyr_male.txt",
+                "female": "npc/names/satyr_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 16,
+            "name": "Centaur",
+            "description": "None",
+            "playable": false,
+            "tags": [ 16 ],
+            "image": 27,
+            "names": {
+                "male": "npc/names/satyr_male.txt",
+                "female": "npc/names/satyr_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 17,
+            "name": "Skeleton",
+            "description": "None",
+            "playable": false,
+            "tags": [ 20, 4 ],
+            "image": 15,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/skeleton.txt",
+                    "female": "npc/hair/shape/skeleton.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/skeleton.txt",
+            "physical_features": "npc/description/skeleton_physical.txt"
+        },
+        {
+            "id": 18,
+            "name": "Ghoul",
+            "description": "None",
+            "playable": false,
+            "tags": [ 21, 4 ],
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/skeleton.txt",
+            "physical_features": "npc/description/ghoul_physical.txt"
+        },
+        {
+            "id": 19,
+            "name": "Dragon",
+            "description": "None",
+            "playable": false,
+            "tags": [ 19 ]
+        },
+        {
+            "id": 20,
+            "name": "Insectoid",
+            "description": "None",
+            "playable": false,
+            "tags": [ 18 ]
+        },
+        {
+            "id": 21,
+            "name": "Mutant",
+            "description": "None",
+            "playable": false,
+            "tags": [ 17 ],
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/bald.txt",
+                    "female": "npc/hair/shape/bald.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/reptilion.txt",
+            "physical_features": "npc/description/mutant_physical.txt"
+        },
+        {
+            "id": 22,
+            "name": "Zombie",
+            "description": "None",
+            "playable": false,
+            "tags": [ 22, 4 ],
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/default.txt",
+            "physical_features": "npc/description/ghoul_physical.txt"
+        },
+        {
+            "id": 23,
+            "name": "Lizardman",
+            "description": "[color=180,180,180,255]An ancient, savage, intelligent race of cold-blooded, reptilian humanoids. Lizardmen form small tribes in the jungles. When not at war with each other the Lizardmen often seek to hunt their primary enemy the fishmen who they believe to be their natural prey.[/color]\n\nStrength +2, Endurance +2\nMove 20% faster on water tiles.\nCan eat corpses without butchering.\n\n[color=130,163,175,255]Items:[/color] Primitive Knife, Primitive Sword\n[color=130,163,175,255]Recipes:[/color] Primitive Knife, Primitive Sword, Primitive Spear",
+            "statistics": {
+                "strength": 2,
+                "endurance": 2
+            },
+            "passives": [
+                {"name": "move_speed_on_water", "value": -0.2}
+            ],
+            "items": [
+                { "id": 310, "amount": 1 },
+                { "id": 312, "amount": 1 }
+            ],
+            "recipes": [310, 311, 312],
+            "playable": true,
+            "tags": [ 24 ],
+            "image": 45,
+            "names": {
+                "male": "npc/names/reptilion_male.txt",
+                "female": "npc/names/reptilion_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/reptilion.txt",
+                    "female": "npc/hair/shape/reptilion.txt"
+                },
+                "color": "npc/hair/color/reptilion.txt"
+            },
+            "eyes": "npc/eyes/reptilion.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 24,
+            "name": "Gnome",
+            "description": "None",
+            "playable": false,
+            "tags": [ 29 ],
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/halfling.txt"
+            },
+            "eyes": "npc/eyes/halfling.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 25,
+            "name": "Kavian",
+            "description": "None",
+            "playable": false,
+            "tags": [ 30 ]
+        },
+        {
+            "id": 26,
+            "name": "Bone Wraith",
+            "description": "[color=180,180,180,255]An enigmatic race of bone-like beings takes various forms, each living art created by their bone craftier. They go through painful transformations to assimilate more bones and gain prestige. Their society is matriarchal, where clans and tribes are the primary groups in their culture. They focus on acquiring the best bones to make the most potent members. The strength and rarity of their bones determine their position in the clan.[/color]\n\nStrength +2, Endurance +2\n+25% two handed melee weapon damage\nInfravision: see in the dark.\n\n[color=130,163,175,255]Items:[/color] Trident\n[color=130,163,175,255]Recipes:[/color] Trident",
+            "statistics": {
+                "strength": 2,
+                "endurance": 2
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "bonus_two_handed_damage_percent", "value": 25}
+            ],
+            "items": [
+                { "id": 376, "amount": 1 }
+            ],
+            "recipes": [376],
+            "playable": true,
+            "tags": [ 3, 9 ],
+            "image": 43,
+            "names": {
+                "male": "npc/names/human_female.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 27,
+            "name": "Golem",
+            "description": "[color=180,180,180,255]Golems are tall humanoid mechanical beings infused with magic. They are often made from salvaged materials, typically some metal such as iron, and resemble a heavy giant mess of different components. First produced by gnome engineers, some of them became sentient and detested their makers.[/color]\n\nStrength +2, Willpower +2\nEats resources instead of food.\nDoesn't require sleep.\nDamages inanimate collidable objects on its path.\n\n[color=130,163,175,255]Items:[/color] 5 Coal\n[color=130,163,175,255]Recipes:[/color] None",
+            "statistics": {
+                "strength": 2,
+                "willpower": 2
+            },
+            "passives": [
+                {"name": "eat_resources", "value": true},
+                {"name": "damage_collidable", "value": 50}
+            ],
+            "items": [
+                { "id": 148, "amount": 5 }
+            ],
+            "recipes": [],
+            "playable": true,
+            "tags": [ 3, 32 ],
+            "image": 46,
+            "names": {
+                "male": "npc/names/golem.txt",
+                "female": "npc/names/golem.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/bald.txt",
+                    "female": "npc/hair/shape/bald.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/golem.txt",
+            "general_features": "npc/description/golem_general.txt",
+            "physical_features": "npc/description/golem_physical.txt"
+        },
+        {
+            "id": 28,
+            "name": "Abomination",
+            "description": "[color=180,180,180,255]A creature never seen before and hopefully the last time a living soul ever will. A horrendous composition of tendons, guts, and muscle, possibly summoned by a wicked witch or risen by pure hatred, it's hard to tell. It is growing more rotten and putrid each passing day. Urges from within and a decomposing body makes every hour a fight against rot and decay. Kill, butcher, attach and prevail.[/color]\n\nStrength +2, Endurance +2\nRequires fresh meat.\nProduces throwable rotten meat on consumption of fresh meat.\n\n[color=130,163,175,255]Items:[/color] 2 Meat\n[color=130,163,175,255]Recipes:[/color] None",
+            "statistics": {
+                "strength": 2,
+                "endurance": 2
+            },
+            "passives": [
+                {"name": "rotting_body", "value": true}
+            ],
+            "items": [
+                { "id": 318, "amount": 2 }
+            ],
+            "recipes": [],
+            "playable": true,
+            "tags": [ 3, 4 ],
+            "image": 47,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/bald.txt",
+                    "female": "npc/hair/shape/bald.txt"
+                },
+                "color": "npc/hair/color/skeleton.txt"
+            },
+            "eyes": "npc/eyes/skeleton.txt",
+            "physical_features": "npc/description/ghoul_physical.txt"
+        },
+        {
+            "id": 29,
+            "name": "God",
+            "description": "None",
+            "statistics": {
+                "strength": 10,
+                "endurance": 10,
+                "dexterity": 10,
+                "intelligence": 10,
+                "willpower": 10
+            },
+            "passives": [
+                {"name": "disable_hunger_and_thirst", "value": true},
+                {"name": "cant_teleport", "value": true},
+                {"name": "360_vision", "value": true}
+            ],
+            "items": [],
+            "recipes": [],
+            "playable": false,
+            "tags": [ 31 ],
+            "image": 47
+        },
+        {
+            "id": 30,
+            "name": "Djinn",
+            "description": "[color=180,180,180,255]Creatures of pure magic infused with a motive will. These ancient beings once dwelled plentifully in the deserts and ruled the sands, though an ancient war saw their entire race enslaved for their power. The Djinni is incredibly rare, and very few have ever escaped their bonds and broke their chains. They are known for being quite chaotic in their dealings with other races. Though Djinns are mortal, they are an embodiment of magic itself, unbridled creation and power. Most Djinns are slaves of powerful binding magic, and their goal is to find freedom.[/color]\n\nIntelligence +2, Willpower +2\nMax carry weight based on Intelligence.\n\n[color=130,163,175,255]Items:[/color] Decorated Collar\n[color=130,163,175,255]Recipes:[/color] Decorated Collar",
+            "statistics": {
+                "intelligence": 2,
+                "willpower": 2
+            },
+            "passives": [
+                {"name": "carry_weight_stat", "value": "intelligence"}
+            ],
+            "items": [
+                { "id": 864, "amount": 1 }
+            ],
+            "recipes": [
+                864
+            ],
+            "playable": true,
+            "tags": [ 3, 34 ],
+            "image": 48,
+            "names": {
+                "male": "npc/names/djinn.txt",
+                "female": "npc/names/djinn.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        },
+        {
+            "id": 31,
+            "name": "Gnoll",
+            "description": "[color=180,180,180,255]Gnolls are known for their chilling cackle and ability to eat anything. They enjoy hunting more than anything. They are tall, bipedal canid humanoids with hyena-like heads, claws, and feet.[/color]\n\nEndurance +2, Dexterity +2\nRabid Scavenger: +2 resources from actions on corpses.\nInfravision: see in the dark.\n\n[color=130,163,175,255]Items:[/color] Primitive Spear\n[color=130,163,175,255]Recipes:[/color] Primitive Spear, Bone Bow",
+            "statistics": {
+                "dexterity": 2,
+                "endurance": 2
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "rabid_scavenger", "value": 2}
+            ],
+            "items": [
+                { "id": 311, "amount": 1 }
+            ],
+            "recipes": [311, 1080],
+            "playable": true,
+            "tags": [ 2, 9 ],
+            "image": 49,
+            "names": {
+                "male": "npc/names/gnoll.txt",
+                "female": "npc/names/gnoll.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 32,
+            "name": "Mushman",
+            "description": "[color=155,155,155,255]Mushmen keep order in the forest. They spread spores and create mushrooms everywhere. Others that they encounter get turned to different types of mushrooms. They are a rare race that uses the earth underneath them to move. Large mycelium networks allow them to travel from one forest to the next quickly.[/color]\n\nStrength +2, Intelligence +2\nForest Walk: +20% Movement speed on short, medium, or long grass.\n\n[color=130,163,175,255]Items:[/color] 4 Mushrooms\n[color=130,163,175,255]Recipes:[/color] None",
+            "statistics": {
+                "strength": 2,
+                "intelligence": 2
+            },
+            "passives": [
+                {"name": "move_speed_on_grass", "value": -0.2}
+            ],
+            "items": [
+                { "id": 343, "amount": 4 }
+            ],
+            "recipes": [],
+            "playable": true,
+            "tags": [ 9, 35 ],
+            "image": 26,
+            "names": {
+                "male": "npc/names/mushman.txt",
+                "female": "npc/names/mushman.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt"
+        },
+        {
+            "id": 99,
+            "name": "Goombanistanian",
+            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 90% slower.\nRequires 90% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants \n[color=130,163,175,255]Bonus Recipes:[/color] Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Maraca, Paper ",
+            "statistics": {
+                "strength": 5,
+                "endurance": 5,
+                "dexterity": 5,
+                "intelligence": 5,
+                "willpower": 5
+            },
+            "passives": [
+                {"name": "infravision", "value": true},
+                {"name": "hunger", "value": 1.9},
+                {"name": "lower_exp_needed", "value": -0.9},
+                {"name": "sight", "value": 10}
+            ],
+            "items": [
+                { "id": 326, "amount": 12 },
+                { "id": 347, "amount": 1 },
+                { "id": 70, "amount": 1 }, 
+                { "id": 188, "amount": 1},
+                { "id": 580, "amount": 1 },
+                { "id": 307, "amount": 1 }
+            ],
+            "recipes": [120, 346, 580, 787, 791, 955, 200109, 200009],
+            "playable": true,
+            "tags": [ 1 ],
+            "image": 14,
+            "names": {
+                "male": "npc/names/human_male.txt",
+                "female": "npc/names/human_female.txt"
+            },
+            "hair": {
+                "shape": {
+                    "male": "npc/hair/shape/human_male.txt",
+                    "female": "npc/hair/shape/human_female.txt"
+                },
+                "color": "npc/hair/color/human.txt"
+            },
+            "eyes": "npc/eyes/human.txt",
+            "general_features": "npc/description/general.txt",
+            "physical_features": "npc/description/physical.txt",
+            "beard": "npc/description/beard.txt"
+        }
+    ],
+    "player_glyphs": [
+        {"race_id": 0, "glyph_id": 893},
+        {"race_id": 1, "glyph_id": 892},
+        {"race_id": 4, "glyph_id": 891},
+        {"race_id": 5, "glyph_id": 894},
+        {"race_id": 6, "glyph_id": 895},
+        {"race_id": 7, "glyph_id": 896},
+        {"race_id": 8, "glyph_id": 897},
+        {"race_id": 9, "glyph_id": 898},
+        {"race_id": 10, "glyph_id": 899},
+        {"race_id": 14, "glyph_id": 890},
+        {"race_id": 23, "glyph_id": 888},
+        {"race_id": 26, "glyph_id": 889},
+        {"race_id": 27, "glyph_id": 887},
+        {"race_id": 28, "glyph_id": 886},
+        {"race_id": 29, "glyph_id": 1188},
+        {"race_id": 30, "glyph_id": 989},
+        {"race_id": 31, "glyph_id": 988},
+        {"race_id": 32, "glyph_id": 1168},
+        {"race_id": 99, "glyph_id": 1500}
+    ],
+    "professions": [
+        {
+            "id": -1,
+            "name": "Universal",
+            "description": "",
+            "recipes": []
+        },
+        {
+            "id": 0,
+            "name": "Fallen knight",
+            "description": "[color=180,180,180,255]Fallen knights have long abandoned their virtuous path for profit. Corruption has spread in their hearts, leaving a craving for bloodshed and destruction. They serve no master other than themselves.[/color]\n\n[color=130,163,175,255]Items:[/color] Mace, Wooden shield\n[color=130,163,175,255]Starting abilities:[/color] Bash\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 168, "amount": 1 }, 
+                { "id": 87, "amount": 1 }, 
+                { "id": 806, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 23
+        },
+        {
+            "id": 1,
+            "name": "Poacher",
+            "description": "[color=180,180,180,255]Poachers hunt prey where it's illegal to do so. Royal forests, species under protection or nearing extinction is a fair game for them. It can be very risky, but profitable life.[/color]\n\n[color=130,163,175,255]Items:[/color] Short bow, 20x Arrow\n[color=130,163,175,255]Abilities:[/color] Piercing arrow\n[color=130,163,175,255]Recipes:[/color] Arrow\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 102, "amount": 1 }, 
+                { "id": 194, "amount": 20 }
+            ],
+            "recipes": [194],
+            "image": 25
+        },
+        {
+            "id": 2,
+            "name": "Warlock",
+            "description": "[color=180,180,180,255]Warlocks are wizards playing with dark arcane powers. Their power comes from enslaved demons. They are known to be narcissistic and power hungry.[/color]\n\n[color=130,163,175,255]Items:[/color] Quarterstaff\n[color=130,163,175,255]Abilities:[/color] Firebolt\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 94, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 22
+        },
+        {
+            "id": 3,
+            "name": "Berserker",
+            "description": "[color=180,180,180,255]Berserkers are warriors known for going into battle in an unstoppable, frenzied rage. Their bodies are hardened by constant fighting in the harsh northern wastelands.[/color]\n\n[color=130,163,175,255]Items:[/color] Hand axe x2\n[color=130,163,175,255]Abilities:[/color] Rage\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 109, "amount": 2 }
+            ],
+            "recipes": [],
+            "image": 21
+        },
+        {
+            "id": 4,
+            "name": "Nomad",
+            "description": "[color=180,180,180,255]Nomads are people of the desert, survivors of the burning sun. Lack of many natural resources forces them to raid others for survival.[/color]\n\n[color=130,163,175,255]Items:[/color] Sabre, Goatskin\n[color=130,163,175,255]Abilities:[/color] Chain slash\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 241, "amount": 1 }, 
+                { "id": 346, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 0
+        },
+        {
+            "id": 5,
+            "name": "Necromancer",
+            "description": "[color=180,180,180,255]Necromancers are mages specializing in death. They have learned to cheat, manipulate and cause death. In history, a few of them were known to be the most dangerous forces to exists that were able crumbled entire kingdoms beneath their undead hordes.[/color]\n\n[color=130,163,175,255]Items:[/color] Hood, Pile of bones\n[color=130,163,175,255]Abilities:[/color] Raise Zombie\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 180, "amount": 1 }, 
+                { "id": 55, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 24
+        },
+        {
+            "id": 6,
+            "name": "Cultist",
+            "description": "[color=180,180,180,255]Cultists are priests that perform rituals to forgotten or dark gods. These people are willing to do anything for a blessing from their master.[/color]\n\n[color=130,163,175,255]Items:[/color] Ceremonial dagger, Robe\n[color=130,163,175,255]Abilities:[/color] Bless weapon\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 308, "amount": 1 }, 
+                { "id": 183, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 12
+        },
+        {
+            "id": 7,
+            "name": "Inquisitor",
+            "description": "[color=180,180,180,255]Inquisitors were a very powerful order that used to fight the spreading darkness. After the War of Worlds, there seemed to be no more need for the order so it was disbanded. Inquisitors persisted, believing the world still needed cleansing in flames. They are potent fighters that aided themselves with magic in close combat situations.[/color]\n\n[color=130,163,175,255]Items:[/color] Short sword, Torch\n[color=130,163,175,255]Abilities:[/color] Immolate\n[color=130,163,175,255]Available abilities:[/color] {}",
+            "items": [
+                { "id": 77, "amount": 1 }, 
+                { "id": 56, "amount": 1 }
+            ],
+            "recipes": [],
+            "image": 20
+        },
+        {
+            "id": 100099,
+            "name": "Goombamancer",
+            "description": "[color=180,180,180,255]Goombamancers are just the fucking best. They have learned to both cheat and cause death. \n\nWith their trusty LED-lit Gamer Rope in hand they have a high chance of [/color][color=99,177,255]crafting[/color][color=180,180,180,255] magic items & artefacts.[/color]\n\n[color=130,163,175,255]Items:[/color] Longsword, Diadem, Metal Bra, Golden Bracers, Gamer Rope\n[color=130,163,175,255]Beginning Abilities:[/color] Party Trick, Command Allies\n[color=130,163,175,255]Available abilities:[/color] {}",
+           "items": [
+                { "id": 79, "amount": 1},
+                { "id": 392, "amount": 1},
+                { "id": 396, "amount": 1},
+                { "id": 669, "amount": 1},
+                { "id": 200109, "amount": 1},
+                { "id": 200110, "amount": 1}
+                ],
+                "recipes": [],
+                "image": 19  
+        }          
+    ],
+    "tags": [
+        { "id": 0, "name": "goblin", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 1, "name": "human", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 2, "name": "animal" },
+        { "id": 3, "name": "magic" },
+        { "id": 4, "name": "undead", "options": [ "damaging_healing", "immune_to_fear" ] },
+        { "id": 5, "name": "player", "options": [ "player_tag" ] },
+        { "id": 6, "name": "dwarf", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 7, "name": "elf", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 8, "name": "owlman" },
+        { "id": 9, "name": "alive" },
+        { "id": 10, "name": "troglodyte", "options": [ "cover_from_weather" ] },
+        { "id": 11, "name": "troll", "options": [ "cover_from_weather" ] },
+        { "id": 12, "name": "orc", "options": [ "sleep_in_bed" ] },
+        { "id": 13, "name": "fishman" },
+        { "id": 14, "name": "demon" },
+        { "id": 15, "name": "satyr", "options": [ "cover_from_weather" ] },
+        { "id": 16, "name": "centaur", "options": [ "cover_from_weather" ] },
+        { "id": 17, "name": "mutant", "options": [ "cover_from_weather" ] },
+        { "id": 18, "name": "insectoid" },
+        { "id": 19, "name": "dragon" },
+        { "id": 20, "name": "skeleton", "options": [ "damaging_healing", "no_fatigue", "is_corpse" ] },
+        { "id": 21, "name": "ghoul", "options": [ "damaging_healing" ] },
+        { "id": 22, "name": "zombie", "options": [ "damaging_healing", "no_fatigue", "is_corpse" ] },
+        { "id": 23, "name": "vampire", "options": [ "sleep_in_bed", "damaging_healing" ] },
+        { "id": 24, "name": "reptilion" },
+        { "id": 25, "name": "halfling", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 26, "name": "greenskin" },
+        { "id": 27, "name": "lich", "options": [ "damaging_healing" ] },
+        { "id": 28, "name": "rasimi", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 29, "name": "gnome", "options": [ "sleep_in_bed", "cover_from_weather" ] },
+        { "id": 30, "name": "kavian", "options": [ "cover_from_weather" ] },
+        { "id": 31, "name": "god", "options": [ "unique_entity" ] },
+        { "id": 32, "name": "golem", "options": [ "no_fatigue" ] },
+        { "id": 33, "name": "angelic" },
+        { "id": 34, "name": "djinn" },
+        { "id": 35, "name": "goombanistanian" },
+        { "id": 36, "name": "horde" }
+    ],
+    "base_recipes": [
+        346, 347, 363, 364, 365, 366, 145, 147, 149, 159, 161, 801, 803
+    ],
+    "base_abilities": [
+        170
+    ],
+    "exp_for_level": {
+        "2": 100,
+		"3": 200,
+		"4": 400,
+		"5": 800,
+		"6": 1200,
+		"7": 1700,
+		"8": 2400,
+		"9": 3400,
+		"10": 4700,
+		"11": 6500,
+		"12": 10000,
+		"13": 14000,
+		"14": 18000,
+		"15": 25000,
+		"16": 35000,
+		"default": 50000
+    },
+    "production_actions": [
+        { 
+            "id": 1, 
+            "name": "Cut wood",
+            "description": "Press `::key` and select a tree to cut it down for wood.",
+            "required_tool": 13, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.15, 
+            "time_weight_scale": 0, 
+            "sound": "Assets/sfx/sounds/cut_wood.ogg",
+            "image": 32,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 2, 
+            "name": "Butcher",
+            "description": "Press `::key` and select corpse to butcher it for fresh meat.",
+            "required_tool": 4, 
+            "time_statistic_scale": 2, 
+            "time_statistic_multiplier": 0.1, 
+            "time_weight_scale": 0.5, 
+            "sound": "Assets/sfx/sounds/butchering.ogg", 
+            "image": 16,
+            "animation": 0,
+            "key": "b",
+            "askey": 98,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 3, 
+            "name": "Skin", 
+            "description": "Press `::key` and select a corpse to skin it for leather or fur.",
+            "required_tool": 4, 
+            "time_statistic_scale": 2, 
+            "time_statistic_multiplier": 0.1, 
+            "time_weight_scale": 0.5, 
+            "sound": "Assets/sfx/sounds/butchering.ogg", 
+            "image": 17,
+            "animation": 0,
+            "key": "k",
+            "askey": 107,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 4, 
+            "name": "Catch fish",
+            "description": "Press `::key` and select water tile to catch try catching some fish.",
+            "required_tool": 5, 
+            "time_statistic_scale": 4, 
+            "time_statistic_multiplier": 0.1, 
+            "time_weight_scale": 0, 
+            "sound": "Assets/sfx/sounds/fishing.ogg", 
+            "image": 33,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": true,
+            "equipment": false,
+            "force_single_item": true
+        },
+        { 
+            "id": 5, 
+            "name": "Mine", 
+            "description": "Press `::key` and select mineable object to mine it.",
+            "required_tool": 9, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.15, 
+            "time_weight_scale": 0, 
+            "sound": "Assets/sfx/sounds/mine.ogg", 
+            "image": 31,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": false,
+            "equipment": false
+        },
+        { 
+            "id": 6, 
+            "name": "Harvest", 
+            "description": "Press `::key` and select harvestable object to harvest it.",
+            "required_tool": 7, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.15, 
+            "time_weight_scale": 0, 
+            "sound": "", 
+            "image": 0,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 7,
+            "name": "Thresh", 
+            "description": "Press `::key` to separate grains from husks of wheat.",
+            "required_tool": 16, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.2, 
+            "time_weight_scale": 0, 
+            "sound": "", 
+            "image": 41,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 8, 
+            "name": "Repair", 
+            "description": "Press `::key` to repair your item if possible. It will reduce max durability by 10.",
+            "required_tool": 17, 
+            "time_statistic_scale": 1, 
+            "time_statistic_multiplier": 0.2, 
+            "time_weight_scale": 0.5, 
+            "sound": "Assets/sfx/sounds/sharpen.ogg", 
+            "image": 40,
+            "animation": 0,
+            "key": "r",
+            "askey": 114,
+            "ranged": false,
+            "equipment": true,
+            "durability": 10
+        },
+        { 
+            "id": 9, 
+            "name": "Cook", 
+            "description": "Press `::key` to cook food and avoid sickness when eating it.",
+            "required_tool": 2, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.0, 
+            "time_weight_scale": 1, 
+            "sound": "Assets/sfx/sounds/cooking.ogg", 
+            "image": 42,
+            "animation": 0,
+            "key": "u",
+            "askey": 117,
+            "ranged": false,
+            "equipment": true
+        },
+        { 
+            "id": 10, 
+            "name": "Gather", 
+            "description": "Press `::key` to gather resource from target.",
+            "required_tool": -1, 
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.0, 
+            "time_weight_scale": 1.0, 
+            "sound": "Assets/sfx/sounds/gather.ogg", 
+            "image": 1,
+            "animation": 0,
+            "key": "b",
+            "askey": 98,
+            "ranged": false,
+            "equipment": false
+        },
+        { 
+            "id": 11, 
+            "name": "Milk", 
+            "description": "Press `::key` and select a target to milk it.",
+            "required_tool": -1,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.0, 
+            "time_weight_scale": 0.0, 
+            "sound": "", 
+            "image": 38,
+            "animation": 0,
+            "key": "k",
+            "askey": 107,
+            "ranged": false,
+            "equipment": false
+        },
+        { 
+            "id": 12, 
+            "name": "Dig", 
+            "description": "Press `::key` and select a target to dig through it.",
+            "required_tool": 18,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0.15, 
+            "time_weight_scale": 0,  
+            "sound": "Assets/sfx/sounds/dig.ogg", 
+            "image": 43,
+            "animation": 0,
+            "key": "u",
+            "askey": 107,
+            "ranged": false,
+            "equipment": false,
+            "force_single_item": true
+        },
+        { 
+            "id": 13, 
+            "name": "Ravage corpse", 
+            "description": "Press `::key` and select a target corpse to eat it.",
+            "required_tool": -1,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0, 
+            "time_weight_scale": 0.2,  
+            "sound": "Assets/sfx/sounds/inventory/Food3.ogg", 
+            "image": 45,
+            "animation": 0,
+            "key": "",
+            "askey": -1,
+            "ranged": false,
+            "equipment": false,
+            "race_restriction": [23],
+            "food": 50
+        },
+        { 
+            "id": 14, 
+            "name": "Summoning ritual", 
+            "description": "Press `::key` and select a target altar to force a deity into this world. Requires a rare ritual ingredient.",
+            "required_tool": 19,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0,
+            "time_weight_scale": 0.0,  
+            "sound": "", 
+            "image": 46,
+            "animation": 226,
+            "key": "",
+            "askey": -1,
+            "ranged": false,
+            "equipment": false
+        },
+        { 
+            "id": 15, 
+            "name": "Replace meat", 
+            "description": "Press `::key` to replace your rotten meat with fresh meat.",
+            "required_tool": -1,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0, 
+            "time_weight_scale": 0.2,  
+            "sound": "Assets/sfx/sounds/inventory/Food3.ogg", 
+            "image": 16,
+            "animation": 0,
+            "key": "r",
+            "askey": 114,
+            "ranged": false,
+            "equipment": true,
+            "race_restriction": [28],
+            "food": 10
+        },
+        { 
+            "id": 16, 
+            "name": "Open portal", 
+            "description": "Use Hand of Sandaver or Emperor's Crown to open portal to the Dreamworld.",
+            "required_tool": -1,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0, 
+            "time_weight_scale": 0.5,  
+            "sound": "", 
+            "image": 47,
+            "animation": 0,
+            "key": "",
+            "askey": -1,
+            "ranged": false,
+            "equipment": false
+        },
+        { 
+            "id": 17, 
+            "name": "Final decision", 
+            "description": "Use the world and make your final decision about its fate.",
+            "required_tool": 20,
+            "time_statistic_scale": 0, 
+            "time_statistic_multiplier": 0, 
+            "time_weight_scale": 0.5,  
+            "sound": "", 
+            "image": 11,
+            "animation": 0,
+            "key": "",
+            "askey": -1,
+            "ranged": false,
+            "equipment": false,
+            "input_state": 28
+        }
+    ],
+    "teleportation_ability": 144
+}
