@@ -875,8 +875,8 @@
         },
         {
             "id": 99,
-            "name": "Goombanistanian",
-            "description": "[color=180,180,180,255]Goombanistanians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants\n[color=130,163,175,255]Bonus Recipes:[/color]  Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Paper ",
+            "name": "Goombanistinian",
+            "description": "[color=180,180,180,255]Goombanistinians are a rare breed. They're just BETTER, y'know? \n\nJust play this one, damn it Vanston![/color]\n\nAll statistics +5.\nGets hungry 80% slower.\nRequires 50% less souls to level.\nCan see in the dark (call it artistic license).\nCan see much further than other races.\n\n[color=130,163,175,255]Bonus Items:[/color] Bandage, Corset, Fairy Dust, High Boots, Knife, Leather Pants\n[color=130,163,175,255]Bonus Recipes:[/color]  Bedroll, Corset, Fishing Rod, Gamer Rope, Goatskin, Ink, Paper ",
             "statistics": {
                 "strength": 5,
                 "endurance": 5,
@@ -1086,7 +1086,7 @@
         { "id": 32, "name": "golem", "options": [ "no_fatigue" ] },
         { "id": 33, "name": "angelic" },
         { "id": 34, "name": "djinn" },
-        { "id": 35, "name": "goombanistanian" },
+        { "id": 35, "name": "Goombanistinian" },
         { "id": 36, "name": "horde" }
     ],
     "base_recipes": [
