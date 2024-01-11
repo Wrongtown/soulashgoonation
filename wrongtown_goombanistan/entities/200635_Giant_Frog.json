@@ -1,22 +1,7 @@
 {
 	"ability_user": [
-		100002,
-		100017,
-		100020,
-		100025,
-		100026
+		37
 	],
-	"armor": {
-		"acid": 0,
-		"death": 100,
-		"electricity": 0,
-		"fire": 1,
-		"frost": 0,
-		"holy": 0,
-		"parry": 0,
-		"physical": 0,
-		"poison": 0
-	},
 	"artificial_intelligence": {
 		"allies": [
 			5,
@@ -24,14 +9,18 @@
 		],
 		"allow_production": [],
 		"behaviors": [
-			16
+			16,
+			5
 		],
-		"enemies": []
+		"enemies": [
+			9,
+			4,
+			3
+		]
 	},
 	"components": [
 		"ability_user",
 		"actor",
-		"armor",
 		"artificial_intelligence",
 		"collidable",
 		"dialogues",
@@ -49,73 +38,74 @@
 		"statistics",
 		"tags"
 	],
-	"corpse": 200013,
-	"description": "A noble and majestic specimen.",
+	"corpse": 200636,
+	"description": "A giant, slimy Goombanistinian frog reaching approximately 2 meters high. \n\nWatch your step, as they are easily triggered to violence.",
 	"dialogues": [
-		9000,
-		9001
+		200,
+		201
 	],
 	"experience_gainer": {
-		"exp": 2,
-		"level": 1
+		"exp": 55,
+		"level": 7
 	},
 	"fighter": {
 		"attackNames": [
 			"Bite",
-			"Scratch"
+			"Tongue whip",
+			"Kick"
 		]
 	},
 	"glyph": {
 		"frames": [
 			{
 				"color": [
-					193,
-					168,
-					116
+					187,
+					197,
+					94
 				],
 				"delay": 0,
-				"index": 1533
+				"index": 132
 			}
 		],
 		"random_frame_start": false
 	},
-	"health": 500,
-	"id": 200011,
+	"health": 180,
+	"id": 200635,
 	"minimap_pixel": [
-		188,
-		88,
-		0
+		187,
+		197,
+		94
 	],
 	"moveable": {
-		"speed": 1.5
+		"speed": 0.8999999761581421
 	},
-	"name": "King Mongoose",
+	"name": "Giant Frog",
 	"sight": {
 		"ignore_infra_penalty": false,
 		"infravision": true,
-		"range": 6,
+		"range": 8,
 		"threesixty": false
 	},
 	"statistics": {
 		"dexterity": [
-			10,
-			15
+			20,
+			24
 		],
 		"endurance": [
-			50,
-			100
+			37,
+			42
 		],
 		"intelligence": [
-			3,
-			8
+			8,
+			11
 		],
 		"strength": [
-			30,
-			100
+			31,
+			36
 		],
 		"willpower": [
-			39,
-			100
+			14,
+			17
 		]
 	},
 	"tags": [
