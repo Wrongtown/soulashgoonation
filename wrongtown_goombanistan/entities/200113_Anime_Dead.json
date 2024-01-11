@@ -67,7 +67,7 @@
 					255
 				],
 				"delay": 300,
-				"index": 1513
+				"index": 1543
 			},
 			{
 				"color": [
@@ -76,7 +76,7 @@
 					255
 				],
 				"delay": 300,
-				"index": 1514
+				"index": 1544
 			},
 			{
 				"color": [
@@ -85,7 +85,7 @@
 					255
 				],
 				"delay": 300,
-				"index": 1515
+				"index": 1545
 			}
 		],
 		"random_frame_start": true
