@@ -1,0 +1,23 @@
+{
+	"animation": 205,
+	"cast_time": 1.0,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 1
+	},
+	"description": "Summons a Giant Goombanistinian Frog. Take care not to provoke them as their amphibian motives are inscrutable.",
+	"duration": 50.0,
+	"effects": {
+		"aoe_range": 10,
+		"aoe_shape": 1,
+		"summon": 200635,
+		"summon_count": 5
+	},
+	"id": 100026,
+	"image": 280,
+	"level": 90,
+	"name": "Summon Frog",
+	"range": 10,
+	"target": "tile"
+}
