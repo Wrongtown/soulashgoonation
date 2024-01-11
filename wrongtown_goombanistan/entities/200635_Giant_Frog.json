@@ -1,0 +1,116 @@
+{
+	"ability_user": [
+		37
+	],
+	"artificial_intelligence": {
+		"allies": [
+			5,
+			35
+		],
+		"allow_production": [],
+		"behaviors": [
+			16,
+			5
+		],
+		"enemies": [
+			9,
+			4,
+			3
+		]
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": 200636,
+	"description": "A giant, slimy Goombanistinian frog reaching approximately 2 meters high.",
+	"dialogues": [
+		200,
+		201
+	],
+	"experience_gainer": {
+		"exp": 55,
+		"level": 7
+	},
+	"fighter": {
+		"attackNames": [
+			"Bite",
+			"Tongue whip",
+			"Kick"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					187,
+					197,
+					94
+				],
+				"delay": 0,
+				"index": 132
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 180,
+	"id": 200635,
+	"minimap_pixel": [
+		187,
+		197,
+		94
+	],
+	"moveable": {
+		"speed": 0.8999999761581421
+	},
+	"name": "Giant Frog",
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 8,
+		"threesixty": false
+	},
+	"statistics": {
+		"dexterity": [
+			20,
+			24
+		],
+		"endurance": [
+			37,
+			42
+		],
+		"intelligence": [
+			8,
+			11
+		],
+		"strength": [
+			31,
+			36
+		],
+		"willpower": [
+			14,
+			17
+		]
+	},
+	"tags": [
+		2,
+		9,
+		35
+	]
+}
